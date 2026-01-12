@@ -1,0 +1,2129 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local discordcopier = {
+	discordcopier = Instance.new("ScreenGui"),
+	MainFrame = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	PLB = Instance.new("Frame"),
+	UICorner_2 = Instance.new("UICorner"),
+	Frame = Instance.new("Frame"),
+	UICorner_3 = Instance.new("UICorner"),
+	Frame_2 = Instance.new("Frame"),
+	UICorner_4 = Instance.new("UICorner"),
+	Frame_3 = Instance.new("Frame"),
+	UICorner_5 = Instance.new("UICorner"),
+	Frame_4 = Instance.new("Frame"),
+	UICorner_6 = Instance.new("UICorner"),
+	Frame_5 = Instance.new("Frame"),
+	UICorner_7 = Instance.new("UICorner"),
+	Frame_6 = Instance.new("Frame"),
+	UICorner_8 = Instance.new("UICorner"),
+	Frame_7 = Instance.new("Frame"),
+	UICorner_9 = Instance.new("UICorner"),
+	Frame_8 = Instance.new("Frame"),
+	UICorner_10 = Instance.new("UICorner"),
+	Frame_9 = Instance.new("Frame"),
+	UICorner_11 = Instance.new("UICorner"),
+	Frame_10 = Instance.new("Frame"),
+	UICorner_12 = Instance.new("UICorner"),
+	Frame_11 = Instance.new("Frame"),
+	UICorner_13 = Instance.new("UICorner"),
+	Frame_12 = Instance.new("Frame"),
+	UICorner_14 = Instance.new("UICorner"),
+	Frame_13 = Instance.new("Frame"),
+	UICorner_15 = Instance.new("UICorner"),
+	Frame_14 = Instance.new("Frame"),
+	UICorner_16 = Instance.new("UICorner"),
+	Frame_15 = Instance.new("Frame"),
+	UICorner_17 = Instance.new("UICorner"),
+	Frame_16 = Instance.new("Frame"),
+	UICorner_18 = Instance.new("UICorner"),
+	Frame_17 = Instance.new("Frame"),
+	UICorner_19 = Instance.new("UICorner"),
+	Frame_18 = Instance.new("Frame"),
+	UICorner_20 = Instance.new("UICorner"),
+	Frame_19 = Instance.new("Frame"),
+	UICorner_21 = Instance.new("UICorner"),
+	Frame_20 = Instance.new("Frame"),
+	UICorner_22 = Instance.new("UICorner"),
+	Frame_21 = Instance.new("Frame"),
+	UICorner_23 = Instance.new("UICorner"),
+	Frame_22 = Instance.new("Frame"),
+	UICorner_24 = Instance.new("UICorner"),
+	Frame_23 = Instance.new("Frame"),
+	UICorner_25 = Instance.new("UICorner"),
+	Frame_24 = Instance.new("Frame"),
+	UICorner_26 = Instance.new("UICorner"),
+	Frame_25 = Instance.new("Frame"),
+	UICorner_27 = Instance.new("UICorner"),
+	Frame_26 = Instance.new("Frame"),
+	UICorner_28 = Instance.new("UICorner"),
+	Frame_27 = Instance.new("Frame"),
+	UICorner_29 = Instance.new("UICorner"),
+	Frame_28 = Instance.new("Frame"),
+	UICorner_30 = Instance.new("UICorner"),
+	Frame_29 = Instance.new("Frame"),
+	UICorner_31 = Instance.new("UICorner"),
+	Frame_30 = Instance.new("Frame"),
+	UICorner_32 = Instance.new("UICorner"),
+	Frame_31 = Instance.new("Frame"),
+	UICorner_33 = Instance.new("UICorner"),
+	Frame_32 = Instance.new("Frame"),
+	UICorner_34 = Instance.new("UICorner"),
+	Frame_33 = Instance.new("Frame"),
+	UICorner_35 = Instance.new("UICorner"),
+	Frame_34 = Instance.new("Frame"),
+	UICorner_36 = Instance.new("UICorner"),
+	Frame_35 = Instance.new("Frame"),
+	UICorner_37 = Instance.new("UICorner"),
+	Frame_36 = Instance.new("Frame"),
+	UICorner_38 = Instance.new("UICorner"),
+	Frame_37 = Instance.new("Frame"),
+	UICorner_39 = Instance.new("UICorner"),
+	Frame_38 = Instance.new("Frame"),
+	UICorner_40 = Instance.new("UICorner"),
+	Frame_39 = Instance.new("Frame"),
+	UICorner_41 = Instance.new("UICorner"),
+	Frame_40 = Instance.new("Frame"),
+	UICorner_42 = Instance.new("UICorner"),
+	Frame_41 = Instance.new("Frame"),
+	UICorner_43 = Instance.new("UICorner"),
+	Frame_42 = Instance.new("Frame"),
+	UICorner_44 = Instance.new("UICorner"),
+	Frame_43 = Instance.new("Frame"),
+	UICorner_45 = Instance.new("UICorner"),
+	Frame_44 = Instance.new("Frame"),
+	UICorner_46 = Instance.new("UICorner"),
+	Frame_45 = Instance.new("Frame"),
+	UICorner_47 = Instance.new("UICorner"),
+	Frame_46 = Instance.new("Frame"),
+	UICorner_48 = Instance.new("UICorner"),
+	Frame_47 = Instance.new("Frame"),
+	UICorner_49 = Instance.new("UICorner"),
+	Frame_48 = Instance.new("Frame"),
+	UICorner_50 = Instance.new("UICorner"),
+	Frame_49 = Instance.new("Frame"),
+	UICorner_51 = Instance.new("UICorner"),
+	Frame_50 = Instance.new("Frame"),
+	UICorner_52 = Instance.new("UICorner"),
+	Frame_51 = Instance.new("Frame"),
+	UICorner_53 = Instance.new("UICorner"),
+	Frame_52 = Instance.new("Frame"),
+	UICorner_54 = Instance.new("UICorner"),
+	Frame_53 = Instance.new("Frame"),
+	UICorner_55 = Instance.new("UICorner"),
+	Frame_54 = Instance.new("Frame"),
+	UICorner_56 = Instance.new("UICorner"),
+	Frame_55 = Instance.new("Frame"),
+	UICorner_57 = Instance.new("UICorner"),
+	Frame_56 = Instance.new("Frame"),
+	UICorner_58 = Instance.new("UICorner"),
+	Frame_57 = Instance.new("Frame"),
+	UICorner_59 = Instance.new("UICorner"),
+	Frame_58 = Instance.new("Frame"),
+	UICorner_60 = Instance.new("UICorner"),
+	Frame_59 = Instance.new("Frame"),
+	UICorner_61 = Instance.new("UICorner"),
+	Frame_60 = Instance.new("Frame"),
+	UICorner_62 = Instance.new("UICorner"),
+	Frame_61 = Instance.new("Frame"),
+	UICorner_63 = Instance.new("UICorner"),
+	Frame_62 = Instance.new("Frame"),
+	UICorner_64 = Instance.new("UICorner"),
+	Frame_63 = Instance.new("Frame"),
+	UICorner_65 = Instance.new("UICorner"),
+	Frame_64 = Instance.new("Frame"),
+	UICorner_66 = Instance.new("UICorner"),
+	Frame_65 = Instance.new("Frame"),
+	UICorner_67 = Instance.new("UICorner"),
+	Frame_66 = Instance.new("Frame"),
+	UICorner_68 = Instance.new("UICorner"),
+	Frame_67 = Instance.new("Frame"),
+	UICorner_69 = Instance.new("UICorner"),
+	Frame_68 = Instance.new("Frame"),
+	UICorner_70 = Instance.new("UICorner"),
+	Frame_69 = Instance.new("Frame"),
+	UICorner_71 = Instance.new("UICorner"),
+	Frame_70 = Instance.new("Frame"),
+	UICorner_72 = Instance.new("UICorner"),
+	Frame_71 = Instance.new("Frame"),
+	UICorner_73 = Instance.new("UICorner"),
+	Frame_72 = Instance.new("Frame"),
+	UICorner_74 = Instance.new("UICorner"),
+	Frame_73 = Instance.new("Frame"),
+	UICorner_75 = Instance.new("UICorner"),
+	Frame_74 = Instance.new("Frame"),
+	UICorner_76 = Instance.new("UICorner"),
+	Frame_75 = Instance.new("Frame"),
+	UICorner_77 = Instance.new("UICorner"),
+	Frame_76 = Instance.new("Frame"),
+	UICorner_78 = Instance.new("UICorner"),
+	Frame_77 = Instance.new("Frame"),
+	UICorner_79 = Instance.new("UICorner"),
+	Frame_78 = Instance.new("Frame"),
+	UICorner_80 = Instance.new("UICorner"),
+	Frame_79 = Instance.new("Frame"),
+	UICorner_81 = Instance.new("UICorner"),
+	Frame_80 = Instance.new("Frame"),
+	UICorner_82 = Instance.new("UICorner"),
+	Frame_81 = Instance.new("Frame"),
+	UICorner_83 = Instance.new("UICorner"),
+	Frame_82 = Instance.new("Frame"),
+	UICorner_84 = Instance.new("UICorner"),
+	Frame_83 = Instance.new("Frame"),
+	UICorner_85 = Instance.new("UICorner"),
+	Frame_84 = Instance.new("Frame"),
+	UICorner_86 = Instance.new("UICorner"),
+	Frame_85 = Instance.new("Frame"),
+	UICorner_87 = Instance.new("UICorner"),
+	Frame_86 = Instance.new("Frame"),
+	UICorner_88 = Instance.new("UICorner"),
+	Frame_87 = Instance.new("Frame"),
+	UICorner_89 = Instance.new("UICorner"),
+	Frame_88 = Instance.new("Frame"),
+	UICorner_90 = Instance.new("UICorner"),
+	Frame_89 = Instance.new("Frame"),
+	UICorner_91 = Instance.new("UICorner"),
+	Frame_90 = Instance.new("Frame"),
+	UICorner_92 = Instance.new("UICorner"),
+	Frame_91 = Instance.new("Frame"),
+	UICorner_93 = Instance.new("UICorner"),
+	Frame_92 = Instance.new("Frame"),
+	UICorner_94 = Instance.new("UICorner"),
+	Frame_93 = Instance.new("Frame"),
+	UICorner_95 = Instance.new("UICorner"),
+	Frame_94 = Instance.new("Frame"),
+	UICorner_96 = Instance.new("UICorner"),
+	Frame_95 = Instance.new("Frame"),
+	UICorner_97 = Instance.new("UICorner"),
+	Frame_96 = Instance.new("Frame"),
+	UICorner_98 = Instance.new("UICorner"),
+	Frame_97 = Instance.new("Frame"),
+	UICorner_99 = Instance.new("UICorner"),
+	Frame_98 = Instance.new("Frame"),
+	UICorner_100 = Instance.new("UICorner"),
+	Frame_99 = Instance.new("Frame"),
+	UICorner_101 = Instance.new("UICorner"),
+	Frame_100 = Instance.new("Frame"),
+	UICorner_102 = Instance.new("UICorner"),
+	mlkotg3 = Instance.new("Frame"),
+	UICorner_103 = Instance.new("UICorner"),
+	UIGradient = Instance.new("UIGradient"),
+	mlkotg2 = Instance.new("Frame"),
+	UICorner_104 = Instance.new("UICorner"),
+	UIGradient_2 = Instance.new("UIGradient"),
+	mlkotg1 = Instance.new("Frame"),
+	UICorner_105 = Instance.new("UICorner"),
+	UIGradient_3 = Instance.new("UIGradient"),
+	ContentFrame = Instance.new("Frame"),
+	UICorner_106 = Instance.new("UICorner"),
+	NotHubTitle = Instance.new("TextLabel"),
+	UIGradient_4 = Instance.new("UIGradient"),
+	TitleLabel = Instance.new("TextLabel"),
+	DescriptionLabel = Instance.new("TextLabel"),
+	Frame_101 = Instance.new("Frame"),
+	GetScriptButton = Instance.new("TextButton"),
+	UICorner_107 = Instance.new("UICorner"),
+	Shine = Instance.new("ImageLabel"),
+	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint"),
+	CloseButton = Instance.new("TextButton"),
+	UICorner_108 = Instance.new("UICorner"),
+	Frame_102 = Instance.new("Frame"),
+	UICorner_109 = Instance.new("UICorner"),
+}
+
+--Properties:
+
+discordcopier.discordcopier.Name = "discord copier"
+discordcopier.discordcopier.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+discordcopier.discordcopier.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+discordcopier.discordcopier.ResetOnSpawn = false
+
+discordcopier.MainFrame.Name = "MainFrame"
+discordcopier.MainFrame.Parent = discordcopier.discordcopier
+discordcopier.MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+discordcopier.MainFrame.BackgroundTransparency = 1.000
+discordcopier.MainFrame.Position = UDim2.new(0.499727905, 0, 0.500163198, 0)
+discordcopier.MainFrame.Size = UDim2.new(0.998911679, 0, 0.998694539, 0)
+
+discordcopier.UICorner.CornerRadius = UDim.new(0, 15)
+discordcopier.UICorner.Parent = discordcopier.MainFrame
+
+discordcopier.PLB.Name = "PLB"
+discordcopier.PLB.Parent = discordcopier.MainFrame
+discordcopier.PLB.BackgroundColor3 = Color3.fromRGB(10, 5, 20)
+discordcopier.PLB.ClipsDescendants = true
+discordcopier.PLB.Position = UDim2.new(0.332193464, 0, 0.218337342, 0)
+discordcopier.PLB.Size = UDim2.new(0.334526151, 0, 0.556453288, 0)
+
+discordcopier.UICorner_2.CornerRadius = UDim.new(0, 15)
+discordcopier.UICorner_2.Parent = discordcopier.PLB
+
+discordcopier.Frame.Parent = discordcopier.PLB
+discordcopier.Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame.BackgroundTransparency = 0.140
+discordcopier.Frame.BorderSizePixel = 0
+discordcopier.Frame.Position = UDim2.new(0.477642208, 0, 0.820982039, 0)
+discordcopier.Frame.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame.ZIndex = 2
+
+discordcopier.UICorner_3.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_3.Parent = discordcopier.Frame
+
+discordcopier.Frame_2.Parent = discordcopier.PLB
+discordcopier.Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_2.BackgroundTransparency = 0.589
+discordcopier.Frame_2.BorderSizePixel = 0
+discordcopier.Frame_2.Position = UDim2.new(0.208330631, 0, 0.580346823, 0)
+discordcopier.Frame_2.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_2.ZIndex = 2
+
+discordcopier.UICorner_4.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_4.Parent = discordcopier.Frame_2
+
+discordcopier.Frame_3.Parent = discordcopier.PLB
+discordcopier.Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_3.BackgroundTransparency = 0.607
+discordcopier.Frame_3.BorderSizePixel = 0
+discordcopier.Frame_3.Position = UDim2.new(0.219847962, 0, 0.319007188, 0)
+discordcopier.Frame_3.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_3.ZIndex = 2
+
+discordcopier.UICorner_5.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_5.Parent = discordcopier.Frame_3
+
+discordcopier.Frame_4.Parent = discordcopier.PLB
+discordcopier.Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_4.BackgroundTransparency = 0.715
+discordcopier.Frame_4.BorderSizePixel = 0
+discordcopier.Frame_4.Position = UDim2.new(0.796557248, 0, 0.0780965611, 0)
+discordcopier.Frame_4.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_4.ZIndex = 2
+
+discordcopier.UICorner_6.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_6.Parent = discordcopier.Frame_4
+
+discordcopier.Frame_5.Parent = discordcopier.PLB
+discordcopier.Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_5.BackgroundTransparency = 0.470
+discordcopier.Frame_5.BorderSizePixel = 0
+discordcopier.Frame_5.Position = UDim2.new(0.115889609, 0, 0.388280094, 0)
+discordcopier.Frame_5.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_5.ZIndex = 2
+
+discordcopier.UICorner_7.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_7.Parent = discordcopier.Frame_5
+
+discordcopier.Frame_6.Parent = discordcopier.PLB
+discordcopier.Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_6.BackgroundTransparency = 0.260
+discordcopier.Frame_6.BorderSizePixel = 0
+discordcopier.Frame_6.Position = UDim2.new(0.679379106, 0, 0.294465035, 0)
+discordcopier.Frame_6.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_6.ZIndex = 2
+
+discordcopier.UICorner_8.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_8.Parent = discordcopier.Frame_6
+
+discordcopier.Frame_7.Parent = discordcopier.PLB
+discordcopier.Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_7.BackgroundTransparency = 0.436
+discordcopier.Frame_7.BorderSizePixel = 0
+discordcopier.Frame_7.Position = UDim2.new(0.887077034, 0, 0.0505187139, 0)
+discordcopier.Frame_7.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_7.ZIndex = 2
+
+discordcopier.UICorner_9.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_9.Parent = discordcopier.Frame_7
+
+discordcopier.Frame_8.Parent = discordcopier.PLB
+discordcopier.Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_8.BackgroundTransparency = 0.430
+discordcopier.Frame_8.BorderSizePixel = 0
+discordcopier.Frame_8.Position = UDim2.new(0.693307221, 0, 0.632207274, 0)
+discordcopier.Frame_8.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_8.ZIndex = 2
+
+discordcopier.UICorner_10.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_10.Parent = discordcopier.Frame_8
+
+discordcopier.Frame_9.Parent = discordcopier.PLB
+discordcopier.Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_9.BackgroundTransparency = 0.300
+discordcopier.Frame_9.BorderSizePixel = 0
+discordcopier.Frame_9.Position = UDim2.new(0.0164037328, 0, 0.0626462996, 0)
+discordcopier.Frame_9.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_9.ZIndex = 2
+
+discordcopier.UICorner_11.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_11.Parent = discordcopier.Frame_9
+
+discordcopier.Frame_10.Parent = discordcopier.PLB
+discordcopier.Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_10.BackgroundTransparency = 0.552
+discordcopier.Frame_10.BorderSizePixel = 0
+discordcopier.Frame_10.Position = UDim2.new(0.849720895, 0, 0.770568013, 0)
+discordcopier.Frame_10.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_10.ZIndex = 2
+
+discordcopier.UICorner_12.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_12.Parent = discordcopier.Frame_10
+
+discordcopier.Frame_11.Parent = discordcopier.PLB
+discordcopier.Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_11.BackgroundTransparency = 0.436
+discordcopier.Frame_11.BorderSizePixel = 0
+discordcopier.Frame_11.Position = UDim2.new(0.461124927, 0, 0.0440882146, 0)
+discordcopier.Frame_11.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_11.ZIndex = 2
+
+discordcopier.UICorner_13.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_13.Parent = discordcopier.Frame_11
+
+discordcopier.Frame_12.Parent = discordcopier.PLB
+discordcopier.Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_12.BackgroundTransparency = 0.333
+discordcopier.Frame_12.BorderSizePixel = 0
+discordcopier.Frame_12.Position = UDim2.new(0.888699532, 0, 0.317746133, 0)
+discordcopier.Frame_12.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_12.ZIndex = 2
+
+discordcopier.UICorner_14.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_14.Parent = discordcopier.Frame_12
+
+discordcopier.Frame_13.Parent = discordcopier.PLB
+discordcopier.Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_13.BackgroundTransparency = 0.600
+discordcopier.Frame_13.BorderSizePixel = 0
+discordcopier.Frame_13.Position = UDim2.new(0.312894493, 0, 0.481147736, 0)
+discordcopier.Frame_13.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_13.ZIndex = 2
+
+discordcopier.UICorner_15.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_15.Parent = discordcopier.Frame_13
+
+discordcopier.Frame_14.Parent = discordcopier.PLB
+discordcopier.Frame_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_14.BackgroundTransparency = 0.290
+discordcopier.Frame_14.BorderSizePixel = 0
+discordcopier.Frame_14.Position = UDim2.new(0.258166224, 0, 0.31449157, 0)
+discordcopier.Frame_14.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_14.ZIndex = 2
+
+discordcopier.UICorner_16.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_16.Parent = discordcopier.Frame_14
+
+discordcopier.Frame_15.Parent = discordcopier.PLB
+discordcopier.Frame_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_15.BackgroundTransparency = 0.436
+discordcopier.Frame_15.BorderSizePixel = 0
+discordcopier.Frame_15.Position = UDim2.new(0.87541461, 0, 0.309019238, 0)
+discordcopier.Frame_15.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_15.ZIndex = 2
+
+discordcopier.UICorner_17.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_17.Parent = discordcopier.Frame_15
+
+discordcopier.Frame_16.Parent = discordcopier.PLB
+discordcopier.Frame_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_16.BackgroundTransparency = 0.250
+discordcopier.Frame_16.BorderSizePixel = 0
+discordcopier.Frame_16.Position = UDim2.new(0.208473593, 0, 0.859894872, 0)
+discordcopier.Frame_16.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_16.ZIndex = 2
+
+discordcopier.UICorner_18.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_18.Parent = discordcopier.Frame_16
+
+discordcopier.Frame_17.Parent = discordcopier.PLB
+discordcopier.Frame_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_17.BackgroundTransparency = 0.550
+discordcopier.Frame_17.BorderSizePixel = 0
+discordcopier.Frame_17.Position = UDim2.new(0.773504555, 0, 0.887342453, 0)
+discordcopier.Frame_17.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_17.ZIndex = 2
+
+discordcopier.UICorner_19.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_19.Parent = discordcopier.Frame_17
+
+discordcopier.Frame_18.Parent = discordcopier.PLB
+discordcopier.Frame_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_18.BackgroundTransparency = 0.660
+discordcopier.Frame_18.BorderSizePixel = 0
+discordcopier.Frame_18.Position = UDim2.new(0.538487375, 0, 0.131097794, 0)
+discordcopier.Frame_18.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_18.ZIndex = 2
+
+discordcopier.UICorner_20.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_20.Parent = discordcopier.Frame_18
+
+discordcopier.Frame_19.Parent = discordcopier.PLB
+discordcopier.Frame_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_19.BackgroundTransparency = 0.616
+discordcopier.Frame_19.BorderSizePixel = 0
+discordcopier.Frame_19.Position = UDim2.new(0.207847357, 0, 0.217140734, 0)
+discordcopier.Frame_19.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_19.ZIndex = 2
+
+discordcopier.UICorner_21.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_21.Parent = discordcopier.Frame_19
+
+discordcopier.Frame_20.Parent = discordcopier.PLB
+discordcopier.Frame_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_20.BackgroundTransparency = 0.190
+discordcopier.Frame_20.BorderSizePixel = 0
+discordcopier.Frame_20.Position = UDim2.new(0.55027014, 0, 0.985356331, 0)
+discordcopier.Frame_20.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_20.ZIndex = 2
+
+discordcopier.UICorner_22.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_22.Parent = discordcopier.Frame_20
+
+discordcopier.Frame_21.Parent = discordcopier.PLB
+discordcopier.Frame_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_21.BackgroundTransparency = 0.582
+discordcopier.Frame_21.BorderSizePixel = 0
+discordcopier.Frame_21.Position = UDim2.new(0.59728992, 0, 0.19930017, 0)
+discordcopier.Frame_21.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_21.ZIndex = 2
+
+discordcopier.UICorner_23.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_23.Parent = discordcopier.Frame_21
+
+discordcopier.Frame_22.Parent = discordcopier.PLB
+discordcopier.Frame_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_22.BackgroundTransparency = 0.120
+discordcopier.Frame_22.BorderSizePixel = 0
+discordcopier.Frame_22.Position = UDim2.new(0.570232332, 0, 0.913617492, 0)
+discordcopier.Frame_22.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_22.ZIndex = 2
+
+discordcopier.UICorner_24.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_24.Parent = discordcopier.Frame_22
+
+discordcopier.Frame_23.Parent = discordcopier.PLB
+discordcopier.Frame_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_23.BackgroundTransparency = 0.660
+discordcopier.Frame_23.BorderSizePixel = 0
+discordcopier.Frame_23.Position = UDim2.new(0.861837506, 0, 0.399745822, 0)
+discordcopier.Frame_23.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_23.ZIndex = 2
+
+discordcopier.UICorner_25.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_25.Parent = discordcopier.Frame_23
+
+discordcopier.Frame_24.Parent = discordcopier.PLB
+discordcopier.Frame_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_24.BackgroundTransparency = 0.355
+discordcopier.Frame_24.BorderSizePixel = 0
+discordcopier.Frame_24.Position = UDim2.new(0.671937406, 0, 0.297822118, 0)
+discordcopier.Frame_24.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_24.ZIndex = 2
+
+discordcopier.UICorner_26.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_26.Parent = discordcopier.Frame_24
+
+discordcopier.Frame_25.Parent = discordcopier.PLB
+discordcopier.Frame_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_25.BackgroundTransparency = 0.430
+discordcopier.Frame_25.BorderSizePixel = 0
+discordcopier.Frame_25.Position = UDim2.new(0.274524957, 0, 0.0176819451, 0)
+discordcopier.Frame_25.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_25.ZIndex = 2
+
+discordcopier.UICorner_27.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_27.Parent = discordcopier.Frame_25
+
+discordcopier.Frame_26.Parent = discordcopier.PLB
+discordcopier.Frame_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_26.BackgroundTransparency = 0.600
+discordcopier.Frame_26.BorderSizePixel = 0
+discordcopier.Frame_26.Position = UDim2.new(0.10802988, 0, 0.28167522, 0)
+discordcopier.Frame_26.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_26.ZIndex = 2
+
+discordcopier.UICorner_28.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_28.Parent = discordcopier.Frame_26
+
+discordcopier.Frame_27.Parent = discordcopier.PLB
+discordcopier.Frame_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_27.BackgroundTransparency = 0.550
+discordcopier.Frame_27.BorderSizePixel = 0
+discordcopier.Frame_27.Position = UDim2.new(0.171753883, 0, 0.223472893, 0)
+discordcopier.Frame_27.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_27.ZIndex = 2
+
+discordcopier.UICorner_29.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_29.Parent = discordcopier.Frame_27
+
+discordcopier.Frame_28.Parent = discordcopier.PLB
+discordcopier.Frame_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_28.BackgroundTransparency = 0.550
+discordcopier.Frame_28.BorderSizePixel = 0
+discordcopier.Frame_28.Position = UDim2.new(0.370602757, 0, 0.696471274, 0)
+discordcopier.Frame_28.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_28.ZIndex = 2
+
+discordcopier.UICorner_30.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_30.Parent = discordcopier.Frame_28
+
+discordcopier.Frame_29.Parent = discordcopier.PLB
+discordcopier.Frame_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_29.BackgroundTransparency = 0.050
+discordcopier.Frame_29.BorderSizePixel = 0
+discordcopier.Frame_29.Position = UDim2.new(0.123382673, 0, 0.3932558, 0)
+discordcopier.Frame_29.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_29.ZIndex = 2
+
+discordcopier.UICorner_31.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_31.Parent = discordcopier.Frame_29
+
+discordcopier.Frame_30.Parent = discordcopier.PLB
+discordcopier.Frame_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_30.BackgroundTransparency = 0.345
+discordcopier.Frame_30.BorderSizePixel = 0
+discordcopier.Frame_30.Position = UDim2.new(0.387792379, 0, 0.378182769, 0)
+discordcopier.Frame_30.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_30.ZIndex = 2
+
+discordcopier.UICorner_32.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_32.Parent = discordcopier.Frame_30
+
+discordcopier.Frame_31.Parent = discordcopier.PLB
+discordcopier.Frame_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_31.BackgroundTransparency = 0.040
+discordcopier.Frame_31.BorderSizePixel = 0
+discordcopier.Frame_31.Position = UDim2.new(0.267220765, 0, 0.431027323, 0)
+discordcopier.Frame_31.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_31.ZIndex = 2
+
+discordcopier.UICorner_33.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_33.Parent = discordcopier.Frame_31
+
+discordcopier.Frame_32.Parent = discordcopier.PLB
+discordcopier.Frame_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_32.BackgroundTransparency = 0.120
+discordcopier.Frame_32.BorderSizePixel = 0
+discordcopier.Frame_32.Position = UDim2.new(0.804478824, 0, 0.0700955763, 0)
+discordcopier.Frame_32.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_32.ZIndex = 2
+
+discordcopier.UICorner_34.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_34.Parent = discordcopier.Frame_32
+
+discordcopier.Frame_33.Parent = discordcopier.PLB
+discordcopier.Frame_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_33.BackgroundTransparency = 0.346
+discordcopier.Frame_33.BorderSizePixel = 0
+discordcopier.Frame_33.Position = UDim2.new(0.718708634, 0, 0.22730796, 0)
+discordcopier.Frame_33.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_33.ZIndex = 2
+
+discordcopier.UICorner_35.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_35.Parent = discordcopier.Frame_33
+
+discordcopier.Frame_34.Parent = discordcopier.PLB
+discordcopier.Frame_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_34.BackgroundTransparency = 0.520
+discordcopier.Frame_34.BorderSizePixel = 0
+discordcopier.Frame_34.Position = UDim2.new(0.257803857, 0, 0.322882533, 0)
+discordcopier.Frame_34.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_34.ZIndex = 2
+
+discordcopier.UICorner_36.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_36.Parent = discordcopier.Frame_34
+
+discordcopier.Frame_35.Parent = discordcopier.PLB
+discordcopier.Frame_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_35.BackgroundTransparency = 0.102
+discordcopier.Frame_35.BorderSizePixel = 0
+discordcopier.Frame_35.Position = UDim2.new(0.277581722, 0, 0.671166897, 0)
+discordcopier.Frame_35.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_35.ZIndex = 2
+
+discordcopier.UICorner_37.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_37.Parent = discordcopier.Frame_35
+
+discordcopier.Frame_36.Parent = discordcopier.PLB
+discordcopier.Frame_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_36.BackgroundTransparency = 0.500
+discordcopier.Frame_36.BorderSizePixel = 0
+discordcopier.Frame_36.Position = UDim2.new(0.409065604, 0, 0.311540544, 0)
+discordcopier.Frame_36.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_36.ZIndex = 2
+
+discordcopier.UICorner_38.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_38.Parent = discordcopier.Frame_36
+
+discordcopier.Frame_37.Parent = discordcopier.PLB
+discordcopier.Frame_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_37.BackgroundTransparency = 0.736
+discordcopier.Frame_37.BorderSizePixel = 0
+discordcopier.Frame_37.Position = UDim2.new(0.945874035, 0, 0.261400819, 0)
+discordcopier.Frame_37.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_37.ZIndex = 2
+
+discordcopier.UICorner_39.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_39.Parent = discordcopier.Frame_37
+
+discordcopier.Frame_38.Parent = discordcopier.PLB
+discordcopier.Frame_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_38.BackgroundTransparency = 0.221
+discordcopier.Frame_38.BorderSizePixel = 0
+discordcopier.Frame_38.Position = UDim2.new(0.0379317626, 0, 0.873639166, 0)
+discordcopier.Frame_38.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_38.ZIndex = 2
+
+discordcopier.UICorner_40.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_40.Parent = discordcopier.Frame_38
+
+discordcopier.Frame_39.Parent = discordcopier.PLB
+discordcopier.Frame_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_39.BackgroundTransparency = 0.303
+discordcopier.Frame_39.BorderSizePixel = 0
+discordcopier.Frame_39.Position = UDim2.new(0.885565519, 0, 0.508805931, 0)
+discordcopier.Frame_39.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_39.ZIndex = 2
+
+discordcopier.UICorner_41.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_41.Parent = discordcopier.Frame_39
+
+discordcopier.Frame_40.Parent = discordcopier.PLB
+discordcopier.Frame_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_40.BackgroundTransparency = 0.080
+discordcopier.Frame_40.BorderSizePixel = 0
+discordcopier.Frame_40.Position = UDim2.new(0.552351236, 0, 0.27354154, 0)
+discordcopier.Frame_40.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_40.ZIndex = 2
+
+discordcopier.UICorner_42.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_42.Parent = discordcopier.Frame_40
+
+discordcopier.Frame_41.Parent = discordcopier.PLB
+discordcopier.Frame_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_41.BackgroundTransparency = 0.310
+discordcopier.Frame_41.BorderSizePixel = 0
+discordcopier.Frame_41.Position = UDim2.new(0.8694278, 0, 0.00510749454, 0)
+discordcopier.Frame_41.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_41.ZIndex = 2
+
+discordcopier.UICorner_43.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_43.Parent = discordcopier.Frame_41
+
+discordcopier.Frame_42.Parent = discordcopier.PLB
+discordcopier.Frame_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_42.BackgroundTransparency = 0.170
+discordcopier.Frame_42.BorderSizePixel = 0
+discordcopier.Frame_42.Position = UDim2.new(0.444297552, 0, 0.825718701, 0)
+discordcopier.Frame_42.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_42.ZIndex = 2
+
+discordcopier.UICorner_44.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_44.Parent = discordcopier.Frame_42
+
+discordcopier.Frame_43.Parent = discordcopier.PLB
+discordcopier.Frame_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_43.BackgroundTransparency = 0.750
+discordcopier.Frame_43.BorderSizePixel = 0
+discordcopier.Frame_43.Position = UDim2.new(0.567866325, 0, 0.451604962, 0)
+discordcopier.Frame_43.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_43.ZIndex = 2
+
+discordcopier.UICorner_45.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_45.Parent = discordcopier.Frame_43
+
+discordcopier.Frame_44.Parent = discordcopier.PLB
+discordcopier.Frame_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_44.BackgroundTransparency = 0.120
+discordcopier.Frame_44.BorderSizePixel = 0
+discordcopier.Frame_44.Position = UDim2.new(0.00667393347, 0, 0.863558352, 0)
+discordcopier.Frame_44.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_44.ZIndex = 2
+
+discordcopier.UICorner_46.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_46.Parent = discordcopier.Frame_44
+
+discordcopier.Frame_45.Parent = discordcopier.PLB
+discordcopier.Frame_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_45.BackgroundTransparency = 0.556
+discordcopier.Frame_45.BorderSizePixel = 0
+discordcopier.Frame_45.Position = UDim2.new(0.900754571, 0, 0.788715363, 0)
+discordcopier.Frame_45.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_45.ZIndex = 2
+
+discordcopier.UICorner_47.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_47.Parent = discordcopier.Frame_45
+
+discordcopier.Frame_46.Parent = discordcopier.PLB
+discordcopier.Frame_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_46.BackgroundTransparency = 0.020
+discordcopier.Frame_46.BorderSizePixel = 0
+discordcopier.Frame_46.Position = UDim2.new(0.851974607, 0, 0.112556934, 0)
+discordcopier.Frame_46.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_46.ZIndex = 2
+
+discordcopier.UICorner_48.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_48.Parent = discordcopier.Frame_46
+
+discordcopier.Frame_47.Parent = discordcopier.PLB
+discordcopier.Frame_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_47.BackgroundTransparency = 0.098
+discordcopier.Frame_47.BorderSizePixel = 0
+discordcopier.Frame_47.Position = UDim2.new(0.551426411, 0, 0.420496315, 0)
+discordcopier.Frame_47.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_47.ZIndex = 2
+
+discordcopier.UICorner_49.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_49.Parent = discordcopier.Frame_47
+
+discordcopier.Frame_48.Parent = discordcopier.PLB
+discordcopier.Frame_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_48.BackgroundTransparency = 0.408
+discordcopier.Frame_48.BorderSizePixel = 0
+discordcopier.Frame_48.Position = UDim2.new(0.94806695, 0, 0.658248127, 0)
+discordcopier.Frame_48.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_48.ZIndex = 2
+
+discordcopier.UICorner_50.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_50.Parent = discordcopier.Frame_48
+
+discordcopier.Frame_49.Parent = discordcopier.PLB
+discordcopier.Frame_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_49.BackgroundTransparency = 0.610
+discordcopier.Frame_49.BorderSizePixel = 0
+discordcopier.Frame_49.Position = UDim2.new(0.274798602, 0, 0.765526831, 0)
+discordcopier.Frame_49.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_49.ZIndex = 2
+
+discordcopier.UICorner_51.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_51.Parent = discordcopier.Frame_49
+
+discordcopier.Frame_50.Parent = discordcopier.PLB
+discordcopier.Frame_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_50.BackgroundTransparency = 0.250
+discordcopier.Frame_50.BorderSizePixel = 0
+discordcopier.Frame_50.Position = UDim2.new(0.642793357, 0, 0.123449899, 0)
+discordcopier.Frame_50.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_50.ZIndex = 2
+
+discordcopier.UICorner_52.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_52.Parent = discordcopier.Frame_50
+
+discordcopier.Frame_51.Parent = discordcopier.PLB
+discordcopier.Frame_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_51.BackgroundTransparency = 0.440
+discordcopier.Frame_51.BorderSizePixel = 0
+discordcopier.Frame_51.Position = UDim2.new(0.742357492, 0, 0.87868315, 0)
+discordcopier.Frame_51.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_51.ZIndex = 2
+
+discordcopier.UICorner_53.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_53.Parent = discordcopier.Frame_51
+
+discordcopier.Frame_52.Parent = discordcopier.PLB
+discordcopier.Frame_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_52.BackgroundTransparency = 0.131
+discordcopier.Frame_52.BorderSizePixel = 0
+discordcopier.Frame_52.Position = UDim2.new(0.348652065, 0, 0.300622284, 0)
+discordcopier.Frame_52.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_52.ZIndex = 2
+
+discordcopier.UICorner_54.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_54.Parent = discordcopier.Frame_52
+
+discordcopier.Frame_53.Parent = discordcopier.PLB
+discordcopier.Frame_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_53.BackgroundTransparency = 0.265
+discordcopier.Frame_53.BorderSizePixel = 0
+discordcopier.Frame_53.Position = UDim2.new(0.337266177, 0, 0.255359292, 0)
+discordcopier.Frame_53.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_53.ZIndex = 2
+
+discordcopier.UICorner_55.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_55.Parent = discordcopier.Frame_53
+
+discordcopier.Frame_54.Parent = discordcopier.PLB
+discordcopier.Frame_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_54.BackgroundTransparency = 0.384
+discordcopier.Frame_54.BorderSizePixel = 0
+discordcopier.Frame_54.Position = UDim2.new(0.18647863, 0, 0.273107022, 0)
+discordcopier.Frame_54.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_54.ZIndex = 2
+
+discordcopier.UICorner_56.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_56.Parent = discordcopier.Frame_54
+
+discordcopier.Frame_55.Parent = discordcopier.PLB
+discordcopier.Frame_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_55.BackgroundTransparency = 0.040
+discordcopier.Frame_55.BorderSizePixel = 0
+discordcopier.Frame_55.Position = UDim2.new(0.923857093, 0, 0.649454415, 0)
+discordcopier.Frame_55.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_55.ZIndex = 2
+
+discordcopier.UICorner_57.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_57.Parent = discordcopier.Frame_55
+
+discordcopier.Frame_56.Parent = discordcopier.PLB
+discordcopier.Frame_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_56.BackgroundTransparency = 0.340
+discordcopier.Frame_56.BorderSizePixel = 0
+discordcopier.Frame_56.Position = UDim2.new(0.418848008, 0, 0.913828433, 0)
+discordcopier.Frame_56.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_56.ZIndex = 2
+
+discordcopier.UICorner_58.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_58.Parent = discordcopier.Frame_56
+
+discordcopier.Frame_57.Parent = discordcopier.PLB
+discordcopier.Frame_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_57.BackgroundTransparency = 0.470
+discordcopier.Frame_57.BorderSizePixel = 0
+discordcopier.Frame_57.Position = UDim2.new(0.561532319, 0, 0.433718711, 0)
+discordcopier.Frame_57.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_57.ZIndex = 2
+
+discordcopier.UICorner_59.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_59.Parent = discordcopier.Frame_57
+
+discordcopier.Frame_58.Parent = discordcopier.PLB
+discordcopier.Frame_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_58.BackgroundTransparency = 0.090
+discordcopier.Frame_58.BorderSizePixel = 0
+discordcopier.Frame_58.Position = UDim2.new(0.535974443, 0, 0.184481114, 0)
+discordcopier.Frame_58.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_58.ZIndex = 2
+
+discordcopier.UICorner_60.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_60.Parent = discordcopier.Frame_58
+
+discordcopier.Frame_59.Parent = discordcopier.PLB
+discordcopier.Frame_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_59.BackgroundTransparency = 0.465
+discordcopier.Frame_59.BorderSizePixel = 0
+discordcopier.Frame_59.Position = UDim2.new(0.174990967, 0, 0.894322634, 0)
+discordcopier.Frame_59.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_59.ZIndex = 2
+
+discordcopier.UICorner_61.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_61.Parent = discordcopier.Frame_59
+
+discordcopier.Frame_60.Parent = discordcopier.PLB
+discordcopier.Frame_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_60.BackgroundTransparency = 0.685
+discordcopier.Frame_60.BorderSizePixel = 0
+discordcopier.Frame_60.Position = UDim2.new(0.624670625, 0, 0.681578875, 0)
+discordcopier.Frame_60.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_60.ZIndex = 2
+
+discordcopier.UICorner_62.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_62.Parent = discordcopier.Frame_60
+
+discordcopier.Frame_61.Parent = discordcopier.PLB
+discordcopier.Frame_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_61.BackgroundTransparency = 0.740
+discordcopier.Frame_61.BorderSizePixel = 0
+discordcopier.Frame_61.Position = UDim2.new(0.582670867, 0, 0.284311593, 0)
+discordcopier.Frame_61.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_61.ZIndex = 2
+
+discordcopier.UICorner_63.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_63.Parent = discordcopier.Frame_61
+
+discordcopier.Frame_62.Parent = discordcopier.PLB
+discordcopier.Frame_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_62.BackgroundTransparency = 0.350
+discordcopier.Frame_62.BorderSizePixel = 0
+discordcopier.Frame_62.Position = UDim2.new(0.71355176, 0, 0.64090085, 0)
+discordcopier.Frame_62.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_62.ZIndex = 2
+
+discordcopier.UICorner_64.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_64.Parent = discordcopier.Frame_62
+
+discordcopier.Frame_63.Parent = discordcopier.PLB
+discordcopier.Frame_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_63.BackgroundTransparency = 0.390
+discordcopier.Frame_63.BorderSizePixel = 0
+discordcopier.Frame_63.Position = UDim2.new(0.374149442, 0, 0.753610373, 0)
+discordcopier.Frame_63.Size = UDim2.new(0, 3, 0, 1)
+discordcopier.Frame_63.ZIndex = 2
+
+discordcopier.UICorner_65.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_65.Parent = discordcopier.Frame_63
+
+discordcopier.Frame_64.Parent = discordcopier.PLB
+discordcopier.Frame_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_64.BackgroundTransparency = 0.610
+discordcopier.Frame_64.BorderSizePixel = 0
+discordcopier.Frame_64.Position = UDim2.new(0.961747289, 0, 0.579559445, 0)
+discordcopier.Frame_64.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_64.ZIndex = 2
+
+discordcopier.UICorner_66.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_66.Parent = discordcopier.Frame_64
+
+discordcopier.Frame_65.Parent = discordcopier.PLB
+discordcopier.Frame_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_65.BackgroundTransparency = 0.110
+discordcopier.Frame_65.BorderSizePixel = 0
+discordcopier.Frame_65.Position = UDim2.new(0.194498837, 0, 0.859052598, 0)
+discordcopier.Frame_65.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_65.ZIndex = 2
+
+discordcopier.UICorner_67.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_67.Parent = discordcopier.Frame_65
+
+discordcopier.Frame_66.Parent = discordcopier.PLB
+discordcopier.Frame_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_66.BackgroundTransparency = 0.682
+discordcopier.Frame_66.BorderSizePixel = 0
+discordcopier.Frame_66.Position = UDim2.new(0.464942157, 0, 0.110768907, 0)
+discordcopier.Frame_66.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_66.ZIndex = 2
+
+discordcopier.UICorner_68.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_68.Parent = discordcopier.Frame_66
+
+discordcopier.Frame_67.Parent = discordcopier.PLB
+discordcopier.Frame_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_67.BackgroundTransparency = 0.090
+discordcopier.Frame_67.BorderSizePixel = 0
+discordcopier.Frame_67.Position = UDim2.new(0.767954588, 0, 0.392499954, 0)
+discordcopier.Frame_67.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_67.ZIndex = 2
+
+discordcopier.UICorner_69.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_69.Parent = discordcopier.Frame_67
+
+discordcopier.Frame_68.Parent = discordcopier.PLB
+discordcopier.Frame_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_68.BackgroundTransparency = 0.469
+discordcopier.Frame_68.BorderSizePixel = 0
+discordcopier.Frame_68.Position = UDim2.new(0.970095098, 0, 0.661966085, 0)
+discordcopier.Frame_68.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_68.ZIndex = 2
+
+discordcopier.UICorner_70.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_70.Parent = discordcopier.Frame_68
+
+discordcopier.Frame_69.Parent = discordcopier.PLB
+discordcopier.Frame_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_69.BackgroundTransparency = 0.487
+discordcopier.Frame_69.BorderSizePixel = 0
+discordcopier.Frame_69.Position = UDim2.new(0.31648007, 0, 0.388740063, 0)
+discordcopier.Frame_69.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_69.ZIndex = 2
+
+discordcopier.UICorner_71.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_71.Parent = discordcopier.Frame_69
+
+discordcopier.Frame_70.Parent = discordcopier.PLB
+discordcopier.Frame_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_70.BackgroundTransparency = 0.122
+discordcopier.Frame_70.BorderSizePixel = 0
+discordcopier.Frame_70.Position = UDim2.new(0.17090109, 0, 0.172817543, 0)
+discordcopier.Frame_70.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_70.ZIndex = 2
+
+discordcopier.UICorner_72.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_72.Parent = discordcopier.Frame_70
+
+discordcopier.Frame_71.Parent = discordcopier.PLB
+discordcopier.Frame_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_71.BackgroundTransparency = 0.536
+discordcopier.Frame_71.BorderSizePixel = 0
+discordcopier.Frame_71.Position = UDim2.new(0.333633244, 0, 0.0222377107, 0)
+discordcopier.Frame_71.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_71.ZIndex = 2
+
+discordcopier.UICorner_73.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_73.Parent = discordcopier.Frame_71
+
+discordcopier.Frame_72.Parent = discordcopier.PLB
+discordcopier.Frame_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_72.BackgroundTransparency = 0.480
+discordcopier.Frame_72.BorderSizePixel = 0
+discordcopier.Frame_72.Position = UDim2.new(0.284695417, 0, 0.0924524069, 0)
+discordcopier.Frame_72.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_72.ZIndex = 2
+
+discordcopier.UICorner_74.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_74.Parent = discordcopier.Frame_72
+
+discordcopier.Frame_73.Parent = discordcopier.PLB
+discordcopier.Frame_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_73.BackgroundTransparency = 0.500
+discordcopier.Frame_73.BorderSizePixel = 0
+discordcopier.Frame_73.Position = UDim2.new(0.168766275, 0, 0.875971794, 0)
+discordcopier.Frame_73.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_73.ZIndex = 2
+
+discordcopier.UICorner_75.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_75.Parent = discordcopier.Frame_73
+
+discordcopier.Frame_74.Parent = discordcopier.PLB
+discordcopier.Frame_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_74.BackgroundTransparency = 0.540
+discordcopier.Frame_74.BorderSizePixel = 0
+discordcopier.Frame_74.Position = UDim2.new(0.56183064, 0, 0.0873042122, 0)
+discordcopier.Frame_74.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_74.ZIndex = 2
+
+discordcopier.UICorner_76.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_76.Parent = discordcopier.Frame_74
+
+discordcopier.Frame_75.Parent = discordcopier.PLB
+discordcopier.Frame_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_75.BackgroundTransparency = 0.790
+discordcopier.Frame_75.BorderSizePixel = 0
+discordcopier.Frame_75.Position = UDim2.new(0.896980107, 0, 0.0361942686, 0)
+discordcopier.Frame_75.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_75.ZIndex = 2
+
+discordcopier.UICorner_77.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_77.Parent = discordcopier.Frame_75
+
+discordcopier.Frame_76.Parent = discordcopier.PLB
+discordcopier.Frame_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_76.BackgroundTransparency = 0.410
+discordcopier.Frame_76.BorderSizePixel = 0
+discordcopier.Frame_76.Position = UDim2.new(0.71860069, 0, 0.77936554, 0)
+discordcopier.Frame_76.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_76.ZIndex = 2
+
+discordcopier.UICorner_78.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_78.Parent = discordcopier.Frame_76
+
+discordcopier.Frame_77.Parent = discordcopier.PLB
+discordcopier.Frame_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_77.BackgroundTransparency = 0.410
+discordcopier.Frame_77.BorderSizePixel = 0
+discordcopier.Frame_77.Position = UDim2.new(0.546851099, 0, 0.519148052, 0)
+discordcopier.Frame_77.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_77.ZIndex = 2
+
+discordcopier.UICorner_79.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_79.Parent = discordcopier.Frame_77
+
+discordcopier.Frame_78.Parent = discordcopier.PLB
+discordcopier.Frame_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_78.BackgroundTransparency = 0.493
+discordcopier.Frame_78.BorderSizePixel = 0
+discordcopier.Frame_78.Position = UDim2.new(0.270091951, 0, 0.174608245, 0)
+discordcopier.Frame_78.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_78.ZIndex = 2
+
+discordcopier.UICorner_80.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_80.Parent = discordcopier.Frame_78
+
+discordcopier.Frame_79.Parent = discordcopier.PLB
+discordcopier.Frame_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_79.BackgroundTransparency = 0.100
+discordcopier.Frame_79.BorderSizePixel = 0
+discordcopier.Frame_79.Position = UDim2.new(0.201992124, 0, 0.572088718, 0)
+discordcopier.Frame_79.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_79.ZIndex = 2
+
+discordcopier.UICorner_81.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_81.Parent = discordcopier.Frame_79
+
+discordcopier.Frame_80.Parent = discordcopier.PLB
+discordcopier.Frame_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_80.BackgroundTransparency = 0.651
+discordcopier.Frame_80.BorderSizePixel = 0
+discordcopier.Frame_80.Position = UDim2.new(0.667728603, 0, 0.999827206, 0)
+discordcopier.Frame_80.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_80.ZIndex = 2
+
+discordcopier.UICorner_82.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_82.Parent = discordcopier.Frame_80
+
+discordcopier.Frame_81.Parent = discordcopier.PLB
+discordcopier.Frame_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_81.BackgroundTransparency = 0.670
+discordcopier.Frame_81.BorderSizePixel = 0
+discordcopier.Frame_81.Position = UDim2.new(0.227347001, 0, 0.489615977, 0)
+discordcopier.Frame_81.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_81.ZIndex = 2
+
+discordcopier.UICorner_83.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_83.Parent = discordcopier.Frame_81
+
+discordcopier.Frame_82.Parent = discordcopier.PLB
+discordcopier.Frame_82.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_82.BackgroundTransparency = 0.560
+discordcopier.Frame_82.BorderSizePixel = 0
+discordcopier.Frame_82.Position = UDim2.new(0.222419769, 0, 0.665096581, 0)
+discordcopier.Frame_82.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_82.ZIndex = 2
+
+discordcopier.UICorner_84.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_84.Parent = discordcopier.Frame_82
+
+discordcopier.Frame_83.Parent = discordcopier.PLB
+discordcopier.Frame_83.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_83.BackgroundTransparency = 0.230
+discordcopier.Frame_83.BorderSizePixel = 0
+discordcopier.Frame_83.Position = UDim2.new(0.826604009, 0, 0.0851806179, 0)
+discordcopier.Frame_83.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_83.ZIndex = 2
+
+discordcopier.UICorner_85.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_85.Parent = discordcopier.Frame_83
+
+discordcopier.Frame_84.Parent = discordcopier.PLB
+discordcopier.Frame_84.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_84.BackgroundTransparency = 0.403
+discordcopier.Frame_84.BorderSizePixel = 0
+discordcopier.Frame_84.Position = UDim2.new(0.949410617, 0, 0.308780342, 0)
+discordcopier.Frame_84.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_84.ZIndex = 2
+
+discordcopier.UICorner_86.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_86.Parent = discordcopier.Frame_84
+
+discordcopier.Frame_85.Parent = discordcopier.PLB
+discordcopier.Frame_85.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_85.BackgroundTransparency = 0.626
+discordcopier.Frame_85.BorderSizePixel = 0
+discordcopier.Frame_85.Position = UDim2.new(0.106010057, 0, 0.114450671, 0)
+discordcopier.Frame_85.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_85.ZIndex = 2
+
+discordcopier.UICorner_87.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_87.Parent = discordcopier.Frame_85
+
+discordcopier.Frame_86.Parent = discordcopier.PLB
+discordcopier.Frame_86.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_86.BackgroundTransparency = 0.560
+discordcopier.Frame_86.BorderSizePixel = 0
+discordcopier.Frame_86.Position = UDim2.new(0.370544314, 0, 0.775524497, 0)
+discordcopier.Frame_86.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_86.ZIndex = 2
+
+discordcopier.UICorner_88.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_88.Parent = discordcopier.Frame_86
+
+discordcopier.Frame_87.Parent = discordcopier.PLB
+discordcopier.Frame_87.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_87.BackgroundTransparency = 0.247
+discordcopier.Frame_87.BorderSizePixel = 0
+discordcopier.Frame_87.Position = UDim2.new(0.0393376946, 0, 0.345832318, 0)
+discordcopier.Frame_87.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_87.ZIndex = 2
+
+discordcopier.UICorner_89.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_89.Parent = discordcopier.Frame_87
+
+discordcopier.Frame_88.Parent = discordcopier.PLB
+discordcopier.Frame_88.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_88.BackgroundTransparency = 0.754
+discordcopier.Frame_88.BorderSizePixel = 0
+discordcopier.Frame_88.Position = UDim2.new(0.380148411, 0, 0.360832006, 0)
+discordcopier.Frame_88.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_88.ZIndex = 2
+
+discordcopier.UICorner_90.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_90.Parent = discordcopier.Frame_88
+
+discordcopier.Frame_89.Parent = discordcopier.PLB
+discordcopier.Frame_89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_89.BackgroundTransparency = 0.131
+discordcopier.Frame_89.BorderSizePixel = 0
+discordcopier.Frame_89.Position = UDim2.new(0.178149343, 0, 0.995983839, 0)
+discordcopier.Frame_89.Size = UDim2.new(0, 3, 0, 3)
+discordcopier.Frame_89.ZIndex = 2
+
+discordcopier.UICorner_91.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_91.Parent = discordcopier.Frame_89
+
+discordcopier.Frame_90.Parent = discordcopier.PLB
+discordcopier.Frame_90.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_90.BackgroundTransparency = 0.180
+discordcopier.Frame_90.BorderSizePixel = 0
+discordcopier.Frame_90.Position = UDim2.new(0.0631146505, 0, 0.618404865, 0)
+discordcopier.Frame_90.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_90.ZIndex = 2
+
+discordcopier.UICorner_92.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_92.Parent = discordcopier.Frame_90
+
+discordcopier.Frame_91.Parent = discordcopier.PLB
+discordcopier.Frame_91.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_91.BackgroundTransparency = 0.253
+discordcopier.Frame_91.BorderSizePixel = 0
+discordcopier.Frame_91.Position = UDim2.new(0.307005554, 0, 0.625343204, 0)
+discordcopier.Frame_91.Size = UDim2.new(0, 1, 0, 1)
+discordcopier.Frame_91.ZIndex = 2
+
+discordcopier.UICorner_93.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_93.Parent = discordcopier.Frame_91
+
+discordcopier.Frame_92.Parent = discordcopier.PLB
+discordcopier.Frame_92.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_92.BackgroundTransparency = 0.030
+discordcopier.Frame_92.BorderSizePixel = 0
+discordcopier.Frame_92.Position = UDim2.new(0.479324579, 0, 0.0724618137, 0)
+discordcopier.Frame_92.Size = UDim2.new(0, 1, 0, 2)
+discordcopier.Frame_92.ZIndex = 2
+
+discordcopier.UICorner_94.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_94.Parent = discordcopier.Frame_92
+
+discordcopier.Frame_93.Parent = discordcopier.PLB
+discordcopier.Frame_93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_93.BackgroundTransparency = 0.506
+discordcopier.Frame_93.BorderSizePixel = 0
+discordcopier.Frame_93.Position = UDim2.new(0.879275441, 0, 0.354518861, 0)
+discordcopier.Frame_93.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_93.ZIndex = 2
+
+discordcopier.UICorner_95.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_95.Parent = discordcopier.Frame_93
+
+discordcopier.Frame_94.Parent = discordcopier.PLB
+discordcopier.Frame_94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_94.BackgroundTransparency = 0.090
+discordcopier.Frame_94.BorderSizePixel = 0
+discordcopier.Frame_94.Position = UDim2.new(0.540058255, 0, 0.717170894, 0)
+discordcopier.Frame_94.Size = UDim2.new(0, 2, 0, 2)
+discordcopier.Frame_94.ZIndex = 2
+
+discordcopier.UICorner_96.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_96.Parent = discordcopier.Frame_94
+
+discordcopier.Frame_95.Parent = discordcopier.PLB
+discordcopier.Frame_95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_95.BackgroundTransparency = 0.270
+discordcopier.Frame_95.BorderSizePixel = 0
+discordcopier.Frame_95.Position = UDim2.new(0.545145929, 0, 0.644929051, 0)
+discordcopier.Frame_95.Size = UDim2.new(0, 3, 0, 2)
+discordcopier.Frame_95.ZIndex = 2
+
+discordcopier.UICorner_97.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_97.Parent = discordcopier.Frame_95
+
+discordcopier.Frame_96.Parent = discordcopier.PLB
+discordcopier.Frame_96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_96.BackgroundTransparency = 0.323
+discordcopier.Frame_96.BorderSizePixel = 0
+discordcopier.Frame_96.Position = UDim2.new(0.137248844, 0, 0.152065948, 0)
+discordcopier.Frame_96.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_96.ZIndex = 2
+
+discordcopier.UICorner_98.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_98.Parent = discordcopier.Frame_96
+
+discordcopier.Frame_97.Parent = discordcopier.PLB
+discordcopier.Frame_97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_97.BackgroundTransparency = 0.087
+discordcopier.Frame_97.BorderSizePixel = 0
+discordcopier.Frame_97.Position = UDim2.new(0.0795451775, 0, 0.49567467, 0)
+discordcopier.Frame_97.Size = UDim2.new(0, 2, 0, 3)
+discordcopier.Frame_97.ZIndex = 2
+
+discordcopier.UICorner_99.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_99.Parent = discordcopier.Frame_97
+
+discordcopier.Frame_98.Parent = discordcopier.PLB
+discordcopier.Frame_98.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_98.BackgroundTransparency = 0.550
+discordcopier.Frame_98.BorderSizePixel = 0
+discordcopier.Frame_98.Position = UDim2.new(0.280923545, 0, 0.827506304, 0)
+discordcopier.Frame_98.Size = UDim2.new(0, 2, 0, 1)
+discordcopier.Frame_98.ZIndex = 2
+
+discordcopier.UICorner_100.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_100.Parent = discordcopier.Frame_98
+
+discordcopier.Frame_99.Parent = discordcopier.PLB
+discordcopier.Frame_99.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_99.BackgroundTransparency = 0.200
+discordcopier.Frame_99.BorderSizePixel = 0
+discordcopier.Frame_99.Position = UDim2.new(0.583846927, 0, 0.937069654, 0)
+discordcopier.Frame_99.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_99.ZIndex = 2
+
+discordcopier.UICorner_101.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_101.Parent = discordcopier.Frame_99
+
+discordcopier.Frame_100.Parent = discordcopier.PLB
+discordcopier.Frame_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_100.BackgroundTransparency = 0.385
+discordcopier.Frame_100.BorderSizePixel = 0
+discordcopier.Frame_100.Position = UDim2.new(0.396309763, 0, 0.600225687, 0)
+discordcopier.Frame_100.Size = UDim2.new(0, 1, 0, 3)
+discordcopier.Frame_100.ZIndex = 2
+
+discordcopier.UICorner_102.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_102.Parent = discordcopier.Frame_100
+
+discordcopier.mlkotg3.Name = "mlkotg3"
+discordcopier.mlkotg3.Parent = discordcopier.PLB
+discordcopier.mlkotg3.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+discordcopier.mlkotg3.BackgroundTransparency = 0.300
+discordcopier.mlkotg3.BorderSizePixel = 0
+discordcopier.mlkotg3.Position = UDim2.new(0.196501732, 0, 0.0976678059, 0)
+discordcopier.mlkotg3.Size = UDim2.new(0, 204, 0, 198)
+
+discordcopier.UICorner_103.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_103.Parent = discordcopier.mlkotg3
+
+discordcopier.UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.70), NumberSequenceKeypoint.new(0.50, 0.40), NumberSequenceKeypoint.new(1.00, 1.00)}
+discordcopier.UIGradient.Parent = discordcopier.mlkotg3
+
+discordcopier.mlkotg2.Name = "mlkotg2"
+discordcopier.mlkotg2.Parent = discordcopier.PLB
+discordcopier.mlkotg2.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
+discordcopier.mlkotg2.BackgroundTransparency = 0.300
+discordcopier.mlkotg2.BorderSizePixel = 0
+discordcopier.mlkotg2.Position = UDim2.new(0.410436869, 0, 0.584344745, 0)
+discordcopier.mlkotg2.Size = UDim2.new(0, 290, 0, 193)
+
+discordcopier.UICorner_104.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_104.Parent = discordcopier.mlkotg2
+
+discordcopier.UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.70), NumberSequenceKeypoint.new(0.50, 0.40), NumberSequenceKeypoint.new(1.00, 1.00)}
+discordcopier.UIGradient_2.Parent = discordcopier.mlkotg2
+
+discordcopier.mlkotg1.Name = "mlkotg1"
+discordcopier.mlkotg1.Parent = discordcopier.PLB
+discordcopier.mlkotg1.BackgroundColor3 = Color3.fromRGB(0, 191, 255)
+discordcopier.mlkotg1.BackgroundTransparency = 0.300
+discordcopier.mlkotg1.BorderSizePixel = 0
+discordcopier.mlkotg1.Position = UDim2.new(0.202202633, 0, 0.498678416, 0)
+discordcopier.mlkotg1.Size = UDim2.new(0, 181, 0, 218)
+
+discordcopier.UICorner_105.CornerRadius = UDim.new(1, 0)
+discordcopier.UICorner_105.Parent = discordcopier.mlkotg1
+
+discordcopier.UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.70), NumberSequenceKeypoint.new(0.50, 0.40), NumberSequenceKeypoint.new(1.00, 1.00)}
+discordcopier.UIGradient_3.Parent = discordcopier.mlkotg1
+
+discordcopier.ContentFrame.Name = "ContentFrame"
+discordcopier.ContentFrame.Parent = discordcopier.PLB
+discordcopier.ContentFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 25)
+discordcopier.ContentFrame.BackgroundTransparency = 0.200
+discordcopier.ContentFrame.Position = UDim2.new(0.0799999982, 0, 0.150000006, 0)
+discordcopier.ContentFrame.Size = UDim2.new(0.839999974, 0, 0.75, 0)
+discordcopier.ContentFrame.ZIndex = 3
+
+discordcopier.UICorner_106.CornerRadius = UDim.new(0, 12)
+discordcopier.UICorner_106.Parent = discordcopier.ContentFrame
+
+discordcopier.NotHubTitle.Name = "NotHubTitle"
+discordcopier.NotHubTitle.Parent = discordcopier.ContentFrame
+discordcopier.NotHubTitle.BackgroundTransparency = 1.000
+discordcopier.NotHubTitle.Position = UDim2.new(0, 0, 0.0500000007, 0)
+discordcopier.NotHubTitle.Size = UDim2.new(1, 0, 0.150000006, 0)
+discordcopier.NotHubTitle.ZIndex = 4
+discordcopier.NotHubTitle.Font = Enum.Font.Unknown
+discordcopier.NotHubTitle.Text = "SORONICE Hub"
+discordcopier.NotHubTitle.TextColor3 = Color3.fromRGB(138, 43, 226)
+discordcopier.NotHubTitle.TextScaled = true
+discordcopier.NotHubTitle.TextSize = 32.000
+discordcopier.NotHubTitle.TextWrapped = true
+
+discordcopier.UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(138, 43, 226)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 191, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(138, 43, 226))}
+discordcopier.UIGradient_4.Offset = Vector2.new(0.747871637, 0)
+discordcopier.UIGradient_4.Parent = discordcopier.NotHubTitle
+
+discordcopier.TitleLabel.Name = "TitleLabel"
+discordcopier.TitleLabel.Parent = discordcopier.ContentFrame
+discordcopier.TitleLabel.BackgroundTransparency = 1.000
+discordcopier.TitleLabel.Position = UDim2.new(0.00238095247, 0, 0.576666653, 0)
+discordcopier.TitleLabel.Size = UDim2.new(1, 0, 0.119999997, 0)
+discordcopier.TitleLabel.ZIndex = 4
+discordcopier.TitleLabel.Font = Enum.Font.GothamBold
+discordcopier.TitleLabel.Text = "Join our server"
+discordcopier.TitleLabel.TextColor3 = Color3.fromRGB(255, 85, 85)
+discordcopier.TitleLabel.TextScaled = true
+discordcopier.TitleLabel.TextSize = 22.000
+discordcopier.TitleLabel.TextWrapped = true
+
+discordcopier.DescriptionLabel.Name = "DescriptionLabel"
+discordcopier.DescriptionLabel.Parent = discordcopier.ContentFrame
+discordcopier.DescriptionLabel.BackgroundTransparency = 1.000
+discordcopier.DescriptionLabel.Position = UDim2.new(0.0776190609, 0, 0.215387374, 0)
+discordcopier.DescriptionLabel.Size = UDim2.new(0.839999974, 0, 0.334612638, 0)
+discordcopier.DescriptionLabel.ZIndex = 4
+discordcopier.DescriptionLabel.Font = Enum.Font.Gotham
+discordcopier.DescriptionLabel.Text = "Click this button if you want to join our Discord server, which will welcome you with open arms. We have plenty of scripts that are very advantageous for many Roblox games."
+discordcopier.DescriptionLabel.TextColor3 = Color3.fromRGB(220, 220, 230)
+discordcopier.DescriptionLabel.TextScaled = true
+discordcopier.DescriptionLabel.TextSize = 16.000
+discordcopier.DescriptionLabel.TextWrapped = true
+
+discordcopier.Frame_101.Parent = discordcopier.ContentFrame
+discordcopier.Frame_101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_101.BackgroundTransparency = 1.000
+discordcopier.Frame_101.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_101.BorderSizePixel = 0
+discordcopier.Frame_101.Position = UDim2.new(0.149548739, 0, 0.756227791, 0)
+discordcopier.Frame_101.Size = UDim2.new(0.73666352, 0, 0.184016377, 0)
+
+discordcopier.GetScriptButton.Name = "GetScriptButton"
+discordcopier.GetScriptButton.Parent = discordcopier.Frame_101
+discordcopier.GetScriptButton.Active = false
+discordcopier.GetScriptButton.BackgroundColor3 = Color3.fromRGB(75, 7, 200)
+discordcopier.GetScriptButton.Position = UDim2.new(0.0118984133, 0, 6.73722689e-10, 0)
+discordcopier.GetScriptButton.Size = UDim2.new(0.98810184, 0, 0.970311046, 0)
+discordcopier.GetScriptButton.ZIndex = 4
+discordcopier.GetScriptButton.Font = Enum.Font.GothamBold
+discordcopier.GetScriptButton.Text = "Join Discord"
+discordcopier.GetScriptButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.GetScriptButton.TextScaled = true
+discordcopier.GetScriptButton.TextSize = 18.000
+discordcopier.GetScriptButton.TextStrokeTransparency = 0.000
+discordcopier.GetScriptButton.TextWrapped = true
+
+discordcopier.UICorner_107.CornerRadius = UDim.new(0, 10)
+discordcopier.UICorner_107.Parent = discordcopier.GetScriptButton
+
+discordcopier.Shine.Name = "Shine"
+discordcopier.Shine.Parent = discordcopier.GetScriptButton
+discordcopier.Shine.AnchorPoint = Vector2.new(0.5, 0.5)
+discordcopier.Shine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Shine.BackgroundTransparency = 1.000
+discordcopier.Shine.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Shine.BorderSizePixel = 0
+discordcopier.Shine.Position = UDim2.new(0.917109728, 0, 0.474242747, 0)
+discordcopier.Shine.Size = UDim2.new(0.180430472, 0, 0.991988182, 0)
+discordcopier.Shine.ZIndex = 5
+discordcopier.Shine.Image = "rbxassetid://71904840558679"
+
+discordcopier.UIAspectRatioConstraint.Parent = discordcopier.Shine
+
+discordcopier.CloseButton.Name = "CloseButton"
+discordcopier.CloseButton.Parent = discordcopier.MainFrame
+discordcopier.CloseButton.BackgroundColor3 = Color3.fromRGB(220, 50, 50)
+discordcopier.CloseButton.BackgroundTransparency = 0.400
+discordcopier.CloseButton.Position = UDim2.new(0.639575839, 0, 0.230116352, 0)
+discordcopier.CloseButton.Size = UDim2.new(0.0215512533, 0, 0.0458523631, 0)
+discordcopier.CloseButton.ZIndex = 5
+discordcopier.CloseButton.Font = Enum.Font.GothamBold
+discordcopier.CloseButton.Text = "X"
+discordcopier.CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.CloseButton.TextSize = 20.000
+discordcopier.CloseButton.TextStrokeTransparency = 0.000
+
+discordcopier.UICorner_108.CornerRadius = UDim.new(0, 10)
+discordcopier.UICorner_108.Parent = discordcopier.CloseButton
+
+discordcopier.Frame_102.Parent = discordcopier.MainFrame
+discordcopier.Frame_102.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_102.BackgroundTransparency = 0.200
+discordcopier.Frame_102.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_102.BorderSizePixel = 0
+discordcopier.Frame_102.Position = UDim2.new(0.322957188, 0, 0.200980395, 0)
+discordcopier.Frame_102.Size = UDim2.new(0.354056239, 0, 0.594771266, 0)
+discordcopier.Frame_102.ZIndex = 0
+
+discordcopier.UICorner_109.CornerRadius = UDim.new(0, 20)
+discordcopier.UICorner_109.Parent = discordcopier.Frame_102
+
+-- Scripts:
+
+local function BTNUAL_fake_script() -- discordcopier.MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', discordcopier.MainFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragStart
+	local startPos
+	
+	-- Position cible (où la frame veut aller)
+	local targetPos = frame.Position
+	
+	-- Puissance du lissage (plus petit = plus fluide)
+	local smoothness = 0.50
+	
+	local function updateTarget(input)
+		local delta = input.Position - dragStart
+	
+		targetPos = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	-- Démarrer le drag
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1
+			or input.UserInputType == Enum.UserInputType.Touch then
+	
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+		end
+	end)
+	
+	-- Mouvement souris + doigt
+	frame.InputChanged:Connect(function(input)
+		if dragging then
+			if input.UserInputType == Enum.UserInputType.MouseMovement
+				or input.UserInputType == Enum.UserInputType.Touch then
+	
+				updateTarget(input)
+			end
+		end
+	end)
+	
+	-- Fin du drag
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1
+			or input.UserInputType == Enum.UserInputType.Touch then
+	
+			dragging = false
+		end
+	end)
+	
+	-- Boucle de lissage
+	RunService.RenderStepped:Connect(function()
+		frame.Position = frame.Position:Lerp(targetPos, smoothness)
+	end)
+	
+	-- SERVICES
+	local TweenService = game:GetService("TweenService")
+	
+	-- RÉFÉRENCE
+	local mainFrame = script.Parent
+	
+	-- PARAMÈTRES
+	local animationTime = 1.5
+	
+	-- SAUVEGARDER LA TAILLE NORMALE
+	local finalSize = mainFrame.Size
+	
+	-- RÉGLAGES INITIAUX
+	mainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+	mainFrame.Size = UDim2.new(0, 0, 0, 0)
+	mainFrame.Visible = true
+	
+	-- TWEEN
+	local tweenInfo = TweenInfo.new(
+		animationTime,
+		Enum.EasingStyle.Sine,
+		Enum.EasingDirection.Out
+	)
+	
+	local tween = TweenService:Create(mainFrame, tweenInfo, {
+		Size = finalSize
+	})
+	
+	-- LANCER L’ANIMATION
+	tween:Play()
+	
+end
+coroutine.wrap(BTNUAL_fake_script)()
+local function RBIB_fake_script() -- discordcopier.PLB.LocalScript 
+	local script = Instance.new('LocalScript', discordcopier.PLB)
+
+	-- SERVICES
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	-- CONTENEUR
+	local plb = script.Parent
+	local ball = plb:WaitForChild("mlkotg1")
+	
+	-- PARAMÈTRES RELAX
+	local gravity = 120
+	local maxSpeed = 6
+	local bouncePower = 0.95
+	local driftForce = 30
+	
+	-- TRAIL
+	local trailInterval = 0.05
+	local trailLifetime = 0.6
+	local lastTrail = 0
+	
+	-- PHYSIQUE
+	local position = Vector2.new(
+		ball.Position.X.Offset,
+		ball.Position.Y.Offset
+	)
+	
+	local velocity = Vector2.new(
+		math.random(-maxSpeed, maxSpeed),
+		math.random(-maxSpeed, maxSpeed)
+	)
+	
+	-- SUIVI DU DÉPLACEMENT DE PLB
+	local lastPLBPos = plb.AbsolutePosition
+	
+	RunService.RenderStepped:Connect(function(dt)
+	
+		-- 🔹 DÉTECTION DÉPLACEMENT DE PLB
+		local currentPLBPos = plb.AbsolutePosition
+		local deltaPLB = currentPLBPos - lastPLBPos
+		lastPLBPos = currentPLBPos
+	
+		-- appliquer déplacement à la balle
+		position += Vector2.new(deltaPLB.X, deltaPLB.Y)
+	
+		-- 🔹 MOUVEMENT RELAX
+		velocity += Vector2.new(0, gravity * dt)
+		velocity += Vector2.new(
+			math.noise(tick()) * driftForce * dt,
+			math.noise(tick() + 5) * driftForce * dt
+		)
+	
+		-- limite vitesse
+		if velocity.Magnitude > maxSpeed then
+			velocity = velocity.Unit * maxSpeed
+		end
+	
+		position += velocity
+	
+		-- 🔹 LIMITES PLB
+		local minX = 0
+		local minY = 0
+		local maxX = plb.AbsoluteSize.X - ball.AbsoluteSize.X
+		local maxY = plb.AbsoluteSize.Y - ball.AbsoluteSize.Y
+	
+		if position.X <= minX or position.X >= maxX then
+			velocity = Vector2.new(-velocity.X * bouncePower, velocity.Y)
+			position = Vector2.new(math.clamp(position.X, minX, maxX), position.Y)
+		end
+	
+		if position.Y <= minY or position.Y >= maxY then
+			velocity = Vector2.new(velocity.X, -velocity.Y * bouncePower)
+			position = Vector2.new(position.X, math.clamp(position.Y, minY, maxY))
+		end
+	
+		-- 🔹 POSITION BALLE
+		ball.Position = UDim2.fromOffset(position.X, position.Y)
+	
+		-- 🔹 TRAIL STYLE TIKTOK
+		if tick() - lastTrail >= trailInterval then
+			lastTrail = tick()
+	
+			local trail = ball:Clone()
+			trail.Parent = plb
+			trail.ZIndex = ball.ZIndex - 1
+			trail.BackgroundTransparency = 0.3
+	
+			local tween = TweenService:Create(
+				trail,
+				TweenInfo.new(trailLifetime, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{BackgroundTransparency = 1}
+			)
+	
+			tween:Play()
+			tween.Completed:Connect(function()
+				trail:Destroy()
+			end)
+		end
+	end)
+	----------------------------------------------------------------------------------------------
+	-- SERVICES
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	-- CONTENEUR
+	local plb = script.Parent
+	local ball = plb:WaitForChild("mlkotg2")
+	
+	-- PARAMÈTRES RELAX
+	local gravity = 120
+	local maxSpeed = 6
+	local bouncePower = 0.95
+	local driftForce = 30
+	
+	-- TRAIL
+	local trailInterval = 0.05
+	local trailLifetime = 0.6
+	local lastTrail = 0
+	
+	-- PHYSIQUE
+	local position = Vector2.new(
+		ball.Position.X.Offset,
+		ball.Position.Y.Offset
+	)
+	
+	local velocity = Vector2.new(
+		math.random(-maxSpeed, maxSpeed),
+		math.random(-maxSpeed, maxSpeed)
+	)
+	
+	-- SUIVI DU DÉPLACEMENT DE PLB
+	local lastPLBPos = plb.AbsolutePosition
+	
+	RunService.RenderStepped:Connect(function(dt)
+	
+		-- 🔹 DÉTECTION DÉPLACEMENT DE PLB
+		local currentPLBPos = plb.AbsolutePosition
+		local deltaPLB = currentPLBPos - lastPLBPos
+		lastPLBPos = currentPLBPos
+	
+		-- appliquer déplacement à la balle
+		position += Vector2.new(deltaPLB.X, deltaPLB.Y)
+	
+		-- 🔹 MOUVEMENT RELAX
+		velocity += Vector2.new(0, gravity * dt)
+		velocity += Vector2.new(
+			math.noise(tick()) * driftForce * dt,
+			math.noise(tick() + 5) * driftForce * dt
+		)
+	
+		-- limite vitesse
+		if velocity.Magnitude > maxSpeed then
+			velocity = velocity.Unit * maxSpeed
+		end
+	
+		position += velocity
+	
+		-- 🔹 LIMITES PLB
+		local minX = 0
+		local minY = 0
+		local maxX = plb.AbsoluteSize.X - ball.AbsoluteSize.X
+		local maxY = plb.AbsoluteSize.Y - ball.AbsoluteSize.Y
+	
+		if position.X <= minX or position.X >= maxX then
+			velocity = Vector2.new(-velocity.X * bouncePower, velocity.Y)
+			position = Vector2.new(math.clamp(position.X, minX, maxX), position.Y)
+		end
+	
+		if position.Y <= minY or position.Y >= maxY then
+			velocity = Vector2.new(velocity.X, -velocity.Y * bouncePower)
+			position = Vector2.new(position.X, math.clamp(position.Y, minY, maxY))
+		end
+	
+		-- 🔹 POSITION BALLE
+		ball.Position = UDim2.fromOffset(position.X, position.Y)
+	
+		-- 🔹 TRAIL STYLE TIKTOK
+		if tick() - lastTrail >= trailInterval then
+			lastTrail = tick()
+	
+			local trail = ball:Clone()
+			trail.Parent = plb
+			trail.ZIndex = ball.ZIndex - 1
+			trail.BackgroundTransparency = 0.3
+	
+			local tween = TweenService:Create(
+				trail,
+				TweenInfo.new(trailLifetime, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{BackgroundTransparency = 1}
+			)
+	
+			tween:Play()
+			tween.Completed:Connect(function()
+				trail:Destroy()
+			end)
+		end
+	end)
+	----------------------------------------------------------------------------------------------------
+	-- SERVICES
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	-- CONTENEUR
+	local plb = script.Parent
+	local ball = plb:WaitForChild("mlkotg3")
+	
+	-- PARAMÈTRES RELAX
+	local gravity = 120
+	local maxSpeed = 6
+	local bouncePower = 0.95
+	local driftForce = 30
+	
+	-- TRAIL
+	local trailInterval = 0.05
+	local trailLifetime = 0.6
+	local lastTrail = 0
+	
+	-- PHYSIQUE
+	local position = Vector2.new(
+		ball.Position.X.Offset,
+		ball.Position.Y.Offset
+	)
+	
+	local velocity = Vector2.new(
+		math.random(-maxSpeed, maxSpeed),
+		math.random(-maxSpeed, maxSpeed)
+	)
+	
+	-- SUIVI DU DÉPLACEMENT DE PLB
+	local lastPLBPos = plb.AbsolutePosition
+	
+	RunService.RenderStepped:Connect(function(dt)
+	
+		-- 🔹 DÉTECTION DÉPLACEMENT DE PLB
+		local currentPLBPos = plb.AbsolutePosition
+		local deltaPLB = currentPLBPos - lastPLBPos
+		lastPLBPos = currentPLBPos
+	
+		-- appliquer déplacement à la balle
+		position += Vector2.new(deltaPLB.X, deltaPLB.Y)
+	
+		-- 🔹 MOUVEMENT RELAX
+		velocity += Vector2.new(0, gravity * dt)
+		velocity += Vector2.new(
+			math.noise(tick()) * driftForce * dt,
+			math.noise(tick() + 5) * driftForce * dt
+		)
+	
+		-- limite vitesse
+		if velocity.Magnitude > maxSpeed then
+			velocity = velocity.Unit * maxSpeed
+		end
+	
+		position += velocity
+	
+		-- 🔹 LIMITES PLB
+		local minX = 0
+		local minY = 0
+		local maxX = plb.AbsoluteSize.X - ball.AbsoluteSize.X
+		local maxY = plb.AbsoluteSize.Y - ball.AbsoluteSize.Y
+	
+		if position.X <= minX or position.X >= maxX then
+			velocity = Vector2.new(-velocity.X * bouncePower, velocity.Y)
+			position = Vector2.new(math.clamp(position.X, minX, maxX), position.Y)
+		end
+	
+		if position.Y <= minY or position.Y >= maxY then
+			velocity = Vector2.new(velocity.X, -velocity.Y * bouncePower)
+			position = Vector2.new(position.X, math.clamp(position.Y, minY, maxY))
+		end
+	
+		-- 🔹 POSITION BALLE
+		ball.Position = UDim2.fromOffset(position.X, position.Y)
+	
+		-- 🔹 TRAIL STYLE TIKTOK
+		if tick() - lastTrail >= trailInterval then
+			lastTrail = tick()
+	
+			local trail = ball:Clone()
+			trail.Parent = plb
+			trail.ZIndex = ball.ZIndex - 1
+			trail.BackgroundTransparency = 0.3
+	
+			local tween = TweenService:Create(
+				trail,
+				TweenInfo.new(trailLifetime, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{BackgroundTransparency = 1}
+			)
+	
+			tween:Play()
+			tween.Completed:Connect(function()
+				trail:Destroy()
+			end)
+		end
+	end)
+	
+end
+coroutine.wrap(RBIB_fake_script)()
+local function CFMYSVD_fake_script() -- discordcopier.GetScriptButton.Tween 
+	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
+
+	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
+	
+	local btn = script.Parent
+	local TS = game:GetService("TweenService")
+	
+	local origSize = btn.Size
+	local hoverScl = 1.1
+	local clickScl = 0.9
+	local tInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+	
+	local function makeTween(scl)
+		local newSize = UDim2.new(
+			origSize.X.Scale * scl,
+			origSize.X.Offset * scl,
+			origSize.Y.Scale * scl,
+			origSize.Y.Offset * scl
+		)
+		return TS:Create(btn, tInfo, {Size = newSize})
+	end
+	
+	btn.MouseEnter:Connect(function()
+		makeTween(hoverScl):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		makeTween(1):Play()
+	end)
+	
+	btn.MouseButton1Click:Connect(function()
+		local shrink = makeTween(clickScl)
+		local reset = makeTween(1)
+		shrink:Play()
+		shrink.Completed:Connect(function()
+			reset:Play()
+		end)
+	end)
+end
+coroutine.wrap(CFMYSVD_fake_script)()
+local function WTJVI_fake_script() -- discordcopier.GetScriptButton.Tween 
+	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
+
+	--// This is a Shine Effect, a shiny line will appear randomly.
+	
+	-- CREDITS TO RILEYBYTES (roblox.com/users/3890364928/profile) for making this
+	
+	
+	local TS = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local shine = button:WaitForChild("Frame"):WaitForChild("Shine")
+	local info = TweenInfo.new(1, Enum.EasingStyle.Circular, Enum.EasingDirection.In, -1, false)
+	
+	shine.Position = UDim2.fromScale(-0.5, 0.5)
+	TS:Create(shine, info, {Position = UDim2.fromScale(1.5, 0.5)}):Play()
+end
+coroutine.wrap(WTJVI_fake_script)()
+local function QLNPYWW_fake_script() -- discordcopier.GetScriptButton.CopyScript 
+	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Texte à copier
+		local textToCopy = "https://discord.gg/KCbyCBAR"
+	
+		-- Copie dans le presse-papiers
+		pcall(function()
+			setclipboard(textToCopy)
+		end)
+	
+		print("Texte copié :", textToCopy)
+	end)
+	
+end
+coroutine.wrap(QLNPYWW_fake_script)()
+local function LFGVKZ_fake_script() -- discordcopier.Shine.LocalScript 
+	local script = Instance.new('LocalScript', discordcopier.Shine)
+
+	-- SERVICES
+	local RunService = game:GetService("RunService")
+	
+	-- RÉFÉRENCES
+	local shine = script.Parent
+	local button = shine.Parent
+	
+	-- PARAMÈTRES
+	local speed = 0.8 -- vitesse (en scale par seconde)
+	
+	-- SAUVEGARDER LE Y (ON N’Y TOUCHE JAMAIS)
+	local fixedYScale = shine.Position.Y.Scale
+	local fixedYOffset = shine.Position.Y.Offset
+	
+	-- POSITION DE DÉPART (DERRIÈRE À GAUCHE)
+	shine.Position = UDim2.new(
+		-shine.Size.X.Scale,
+		1,
+		fixedYScale,
+		fixedYOffset
+	)
+	
+	RunService.RenderStepped:Connect(function(dt)
+		local xScale = shine.Position.X.Scale
+	
+		-- avancer vers la droite
+		xScale += speed * dt
+	
+		-- quand on dépasse le bouton → reset à gauche
+		if xScale >= 0.99 then
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+		end
+		
+		-- quand on dépasse le bouton → reset à gauche
+		if xScale >= 0.99 then
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+			xScale = shine.Size.X.Scale + 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 -- 1 + 1px
+		end
+	
+		-- appliquer SANS TOUCHER AU Y
+		shine.Position = UDim2.new(
+			xScale,
+			1,
+			fixedYScale,
+			fixedYOffset
+		)
+	end)
+	
+end
+coroutine.wrap(LFGVKZ_fake_script)()
+local function AKKMQ_fake_script() -- discordcopier.CloseButton.LocalScript 
+	local script = Instance.new('LocalScript', discordcopier.CloseButton)
+
+	-- SERVICES
+	local TweenService = game:GetService("TweenService")
+	
+	-- RÉFÉRENCES
+	local button = script.Parent
+	local mainFrame = button.Parent -- car le bouton est dans MainFrame
+	
+	-- PARAMÈTRES
+	local animationTime = 1.5 -- secondes
+	local alreadyClicked = false
+	
+	button.MouseButton1Click:Connect(function()
+		if alreadyClicked then return end
+		alreadyClicked = true
+	
+		-- INFO TWEEN
+		local tweenInfo = TweenInfo.new(
+			animationTime,
+			Enum.EasingStyle.Quad,
+			Enum.EasingDirection.Out
+		)
+	
+		-- TWEEN DU MAINFRAME
+		local mainTween = TweenService:Create(mainFrame, tweenInfo, {
+			BackgroundTransparency = 1,
+			Size = UDim2.new(0, 0, 0, 0)
+		})
+	
+		mainTween:Play()
+	
+		-- FADE DE TOUS LES ENFANTS
+		for _, ui in ipairs(mainFrame:GetDescendants()) do
+			if ui:IsA("Frame") then
+				TweenService:Create(ui, tweenInfo, {
+					BackgroundTransparency = 1
+				}):Play()
+	
+			elseif ui:IsA("TextLabel") or ui:IsA("TextButton") then
+				TweenService:Create(ui, tweenInfo, {
+					BackgroundTransparency = 1,
+					TextTransparency = 1
+				}):Play()
+	
+			elseif ui:IsA("ImageLabel") or ui:IsA("ImageButton") then
+				TweenService:Create(ui, tweenInfo, {
+					BackgroundTransparency = 1,
+					ImageTransparency = 1
+				}):Play()
+			end
+		end
+	
+		-- SUPPRESSION FINALE
+		mainTween.Completed:Connect(function()
+			mainFrame:Destroy()
+		end)
+	end)
+	
+end
+coroutine.wrap(AKKMQ_fake_script)()
