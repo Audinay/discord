@@ -1528,7 +1528,7 @@ discordcopier.UICorner_109.Parent = discordcopier.Frame_102
 
 -- Scripts:
 
-local function BTNUAL_fake_script() -- discordcopier.MainFrame.LocalScript 
+local function WRIEPPB_fake_script() -- discordcopier.MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1625,8 +1625,8 @@ local function BTNUAL_fake_script() -- discordcopier.MainFrame.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(BTNUAL_fake_script)()
-local function RBIB_fake_script() -- discordcopier.PLB.LocalScript 
+coroutine.wrap(WRIEPPB_fake_script)()
+local function HENL_fake_script() -- discordcopier.PLB.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.PLB)
 
 	-- SERVICES
@@ -1924,8 +1924,8 @@ local function RBIB_fake_script() -- discordcopier.PLB.LocalScript
 	end)
 	
 end
-coroutine.wrap(RBIB_fake_script)()
-local function CFMYSVD_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(HENL_fake_script)()
+local function JWEZ_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -1965,8 +1965,8 @@ local function CFMYSVD_fake_script() -- discordcopier.GetScriptButton.Tween
 		end)
 	end)
 end
-coroutine.wrap(CFMYSVD_fake_script)()
-local function WTJVI_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(JWEZ_fake_script)()
+local function XFLIFLB_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a Shine Effect, a shiny line will appear randomly.
@@ -1983,15 +1983,15 @@ local function WTJVI_fake_script() -- discordcopier.GetScriptButton.Tween
 	shine.Position = UDim2.fromScale(-0.5, 0.5)
 	TS:Create(shine, info, {Position = UDim2.fromScale(1.5, 0.5)}):Play()
 end
-coroutine.wrap(WTJVI_fake_script)()
-local function QLNPYWW_fake_script() -- discordcopier.GetScriptButton.CopyScript 
+coroutine.wrap(XFLIFLB_fake_script)()
+local function ZEXSVO_fake_script() -- discordcopier.GetScriptButton.CopyScript 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		-- Texte à copier
-		local textToCopy = "https://discord.gg/KCbyCBAR"
+		local textToCopy = "https://discord.gg/Wd2znSQ7"
 	
 		-- Copie dans le presse-papiers
 		pcall(function()
@@ -2002,8 +2002,8 @@ local function QLNPYWW_fake_script() -- discordcopier.GetScriptButton.CopyScript
 	end)
 	
 end
-coroutine.wrap(QLNPYWW_fake_script)()
-local function LFGVKZ_fake_script() -- discordcopier.Shine.LocalScript 
+coroutine.wrap(ZEXSVO_fake_script)()
+local function FDECR_fake_script() -- discordcopier.Shine.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.Shine)
 
 	-- SERVICES
@@ -2064,8 +2064,8 @@ local function LFGVKZ_fake_script() -- discordcopier.Shine.LocalScript
 	end)
 	
 end
-coroutine.wrap(LFGVKZ_fake_script)()
-local function AKKMQ_fake_script() -- discordcopier.CloseButton.LocalScript 
+coroutine.wrap(FDECR_fake_script)()
+local function YOPEL_fake_script() -- discordcopier.CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.CloseButton)
 
 	-- SERVICES
@@ -2073,57 +2073,78 @@ local function AKKMQ_fake_script() -- discordcopier.CloseButton.LocalScript
 	
 	-- RÉFÉRENCES
 	local button = script.Parent
-	local mainFrame = button.Parent -- car le bouton est dans MainFrame
+	local mainFrame = button.Parent
 	
 	-- PARAMÈTRES
-	local animationTime = 1.5 -- secondes
+	local animationTime = 1.5
 	local alreadyClicked = false
 	
 	button.MouseButton1Click:Connect(function()
 		if alreadyClicked then return end
 		alreadyClicked = true
 	
-		-- INFO TWEEN
+		-- Vérifie que le frame existe encore
+		if not mainFrame or not mainFrame.Parent then return end
+	
 		local tweenInfo = TweenInfo.new(
 			animationTime,
 			Enum.EasingStyle.Quad,
 			Enum.EasingDirection.Out
 		)
 	
+		local tweens = {} -- on stocke tous les tweens
+	
 		-- TWEEN DU MAINFRAME
 		local mainTween = TweenService:Create(mainFrame, tweenInfo, {
 			BackgroundTransparency = 1,
 			Size = UDim2.new(0, 0, 0, 0)
 		})
-	
+		table.insert(tweens, mainTween)
 		mainTween:Play()
 	
-		-- FADE DE TOUS LES ENFANTS
+		-- TWEEN DES ENFANTS
 		for _, ui in ipairs(mainFrame:GetDescendants()) do
-			if ui:IsA("Frame") then
-				TweenService:Create(ui, tweenInfo, {
-					BackgroundTransparency = 1
-				}):Play()
+			if ui and ui.Parent then -- évite les objets supprimés
+				if ui:IsA("Frame") then
+					local t = TweenService:Create(ui, tweenInfo, {
+						BackgroundTransparency = 1
+					})
+					table.insert(tweens, t)
+					t:Play()
 	
-			elseif ui:IsA("TextLabel") or ui:IsA("TextButton") then
-				TweenService:Create(ui, tweenInfo, {
-					BackgroundTransparency = 1,
-					TextTransparency = 1
-				}):Play()
+				elseif ui:IsA("TextLabel") or ui:IsA("TextButton") then
+					local t = TweenService:Create(ui, tweenInfo, {
+						BackgroundTransparency = 1,
+						TextTransparency = 1
+					})
+					table.insert(tweens, t)
+					t:Play()
 	
-			elseif ui:IsA("ImageLabel") or ui:IsA("ImageButton") then
-				TweenService:Create(ui, tweenInfo, {
-					BackgroundTransparency = 1,
-					ImageTransparency = 1
-				}):Play()
+				elseif ui:IsA("ImageLabel") or ui:IsA("ImageButton") then
+					local t = TweenService:Create(ui, tweenInfo, {
+						BackgroundTransparency = 1,
+						ImageTransparency = 1
+					})
+					table.insert(tweens, t)
+					t:Play()
+				end
 			end
 		end
 	
-		-- SUPPRESSION FINALE
-		mainTween.Completed:Connect(function()
-			mainFrame:Destroy()
+		-- Attendre que TOUS les tweens soient finis
+		task.spawn(function()
+			for _, tween in ipairs(tweens) do
+				if tween.PlaybackState ~= Enum.PlaybackState.Completed then
+					tween.Completed:Wait()
+				end
+			end
+	
+			-- Dernière sécurité avant Destroy
+			if mainFrame and mainFrame.Parent then
+				mainFrame:Destroy()
+			end
 		end)
 	end)
 	
 end
-coroutine.wrap(AKKMQ_fake_script)()
+coroutine.wrap(YOPEL_fake_script)()
