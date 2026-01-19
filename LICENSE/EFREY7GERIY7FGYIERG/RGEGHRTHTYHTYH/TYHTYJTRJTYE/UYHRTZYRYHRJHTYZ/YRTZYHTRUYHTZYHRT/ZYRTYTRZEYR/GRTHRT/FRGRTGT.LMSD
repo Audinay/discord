@@ -227,12 +227,14 @@ local discordcopier = {
 	Frame_101 = Instance.new("Frame"),
 	GetScriptButton = Instance.new("TextButton"),
 	UICorner_107 = Instance.new("UICorner"),
+	Frame_102 = Instance.new("Frame"),
 	Shine = Instance.new("ImageLabel"),
 	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint"),
-	CloseButton = Instance.new("TextButton"),
 	UICorner_108 = Instance.new("UICorner"),
-	Frame_102 = Instance.new("Frame"),
+	CloseButton = Instance.new("TextButton"),
 	UICorner_109 = Instance.new("UICorner"),
+	Frame_103 = Instance.new("Frame"),
+	UICorner_110 = Instance.new("UICorner"),
 }
 
 --Properties:
@@ -1470,8 +1472,8 @@ discordcopier.GetScriptButton.Name = "GetScriptButton"
 discordcopier.GetScriptButton.Parent = discordcopier.Frame_101
 discordcopier.GetScriptButton.Active = false
 discordcopier.GetScriptButton.BackgroundColor3 = Color3.fromRGB(75, 7, 200)
-discordcopier.GetScriptButton.Position = UDim2.new(0.0118984133, 0, 6.73722689e-10, 0)
-discordcopier.GetScriptButton.Size = UDim2.new(0.98810184, 0, 0.970311046, 0)
+discordcopier.GetScriptButton.Position = UDim2.new(0.123359531, 0, 0, 0)
+discordcopier.GetScriptButton.Size = UDim2.new(0.744027197, 0, 0.970310926, 0)
 discordcopier.GetScriptButton.ZIndex = 4
 discordcopier.GetScriptButton.Font = Enum.Font.GothamBold
 discordcopier.GetScriptButton.Text = "Join Discord"
@@ -1484,19 +1486,31 @@ discordcopier.GetScriptButton.TextWrapped = true
 discordcopier.UICorner_107.CornerRadius = UDim.new(0, 10)
 discordcopier.UICorner_107.Parent = discordcopier.GetScriptButton
 
+discordcopier.Frame_102.Parent = discordcopier.Frame_101
+discordcopier.Frame_102.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discordcopier.Frame_102.BackgroundTransparency = 1.000
+discordcopier.Frame_102.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_102.BorderSizePixel = 0
+discordcopier.Frame_102.Position = UDim2.new(-0.0270795859, 0, 0, 0)
+discordcopier.Frame_102.Size = UDim2.new(0.894466162, 0, 0.949604988, 0)
+discordcopier.Frame_102.ZIndex = 4
+
 discordcopier.Shine.Name = "Shine"
-discordcopier.Shine.Parent = discordcopier.GetScriptButton
+discordcopier.Shine.Parent = discordcopier.Frame_102
 discordcopier.Shine.AnchorPoint = Vector2.new(0.5, 0.5)
 discordcopier.Shine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 discordcopier.Shine.BackgroundTransparency = 1.000
 discordcopier.Shine.BorderColor3 = Color3.fromRGB(0, 0, 0)
 discordcopier.Shine.BorderSizePixel = 0
-discordcopier.Shine.Position = UDim2.new(0.917109728, 0, 0.474242747, 0)
-discordcopier.Shine.Size = UDim2.new(0.180430472, 0, 0.991988182, 0)
+discordcopier.Shine.Position = UDim2.new(0.789884686, 0, 0.517184913, 0)
+discordcopier.Shine.Size = UDim2.new(0.180430487, 0, 0.981877506, 0)
 discordcopier.Shine.ZIndex = 5
 discordcopier.Shine.Image = "rbxassetid://71904840558679"
 
 discordcopier.UIAspectRatioConstraint.Parent = discordcopier.Shine
+
+discordcopier.UICorner_108.CornerRadius = UDim.new(0, 19)
+discordcopier.UICorner_108.Parent = discordcopier.Frame_102
 
 discordcopier.CloseButton.Name = "CloseButton"
 discordcopier.CloseButton.Parent = discordcopier.MainFrame
@@ -1511,24 +1525,24 @@ discordcopier.CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 discordcopier.CloseButton.TextSize = 20.000
 discordcopier.CloseButton.TextStrokeTransparency = 0.000
 
-discordcopier.UICorner_108.CornerRadius = UDim.new(0, 10)
-discordcopier.UICorner_108.Parent = discordcopier.CloseButton
+discordcopier.UICorner_109.CornerRadius = UDim.new(0, 10)
+discordcopier.UICorner_109.Parent = discordcopier.CloseButton
 
-discordcopier.Frame_102.Parent = discordcopier.MainFrame
-discordcopier.Frame_102.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-discordcopier.Frame_102.BackgroundTransparency = 0.200
-discordcopier.Frame_102.BorderColor3 = Color3.fromRGB(0, 0, 0)
-discordcopier.Frame_102.BorderSizePixel = 0
-discordcopier.Frame_102.Position = UDim2.new(0.322957188, 0, 0.200980395, 0)
-discordcopier.Frame_102.Size = UDim2.new(0.354056239, 0, 0.594771266, 0)
-discordcopier.Frame_102.ZIndex = 0
+discordcopier.Frame_103.Parent = discordcopier.MainFrame
+discordcopier.Frame_103.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_103.BackgroundTransparency = 0.200
+discordcopier.Frame_103.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordcopier.Frame_103.BorderSizePixel = 0
+discordcopier.Frame_103.Position = UDim2.new(0.322957188, 0, 0.200980395, 0)
+discordcopier.Frame_103.Size = UDim2.new(0.354056239, 0, 0.594771266, 0)
+discordcopier.Frame_103.ZIndex = 0
 
-discordcopier.UICorner_109.CornerRadius = UDim.new(0, 20)
-discordcopier.UICorner_109.Parent = discordcopier.Frame_102
+discordcopier.UICorner_110.CornerRadius = UDim.new(0, 20)
+discordcopier.UICorner_110.Parent = discordcopier.Frame_103
 
 -- Scripts:
 
-local function WRIEPPB_fake_script() -- discordcopier.MainFrame.LocalScript 
+local function OVRWZW_fake_script() -- discordcopier.MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1625,8 +1639,8 @@ local function WRIEPPB_fake_script() -- discordcopier.MainFrame.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(WRIEPPB_fake_script)()
-local function HENL_fake_script() -- discordcopier.PLB.LocalScript 
+coroutine.wrap(OVRWZW_fake_script)()
+local function KRQR_fake_script() -- discordcopier.PLB.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.PLB)
 
 	-- SERVICES
@@ -1924,8 +1938,8 @@ local function HENL_fake_script() -- discordcopier.PLB.LocalScript
 	end)
 	
 end
-coroutine.wrap(HENL_fake_script)()
-local function JWEZ_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(KRQR_fake_script)()
+local function RSDDA_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -1965,8 +1979,8 @@ local function JWEZ_fake_script() -- discordcopier.GetScriptButton.Tween
 		end)
 	end)
 end
-coroutine.wrap(JWEZ_fake_script)()
-local function XFLIFLB_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(RSDDA_fake_script)()
+local function ZEYWOB_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a Shine Effect, a shiny line will appear randomly.
@@ -1983,15 +1997,15 @@ local function XFLIFLB_fake_script() -- discordcopier.GetScriptButton.Tween
 	shine.Position = UDim2.fromScale(-0.5, 0.5)
 	TS:Create(shine, info, {Position = UDim2.fromScale(1.5, 0.5)}):Play()
 end
-coroutine.wrap(XFLIFLB_fake_script)()
-local function ZEXSVO_fake_script() -- discordcopier.GetScriptButton.CopyScript 
+coroutine.wrap(ZEYWOB_fake_script)()
+local function XAZK_fake_script() -- discordcopier.GetScriptButton.CopyScript 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		-- Texte à copier
-		local textToCopy = "https://discord.gg/Wd2znSQ7"
+		local textToCopy = "https://discord.gg/w4uqy22z"
 	
 		-- Copie dans le presse-papiers
 		pcall(function()
@@ -2002,8 +2016,8 @@ local function ZEXSVO_fake_script() -- discordcopier.GetScriptButton.CopyScript
 	end)
 	
 end
-coroutine.wrap(ZEXSVO_fake_script)()
-local function FDECR_fake_script() -- discordcopier.Shine.LocalScript 
+coroutine.wrap(XAZK_fake_script)()
+local function OGWWDV_fake_script() -- discordcopier.Shine.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.Shine)
 
 	-- SERVICES
@@ -2014,7 +2028,7 @@ local function FDECR_fake_script() -- discordcopier.Shine.LocalScript
 	local button = shine.Parent
 	
 	-- PARAMÈTRES
-	local speed = 0.8 -- vitesse (en scale par seconde)
+	local speed = 0.5 -- vitesse (en scale par seconde)
 	
 	-- SAUVEGARDER LE Y (ON N’Y TOUCHE JAMAIS)
 	local fixedYScale = shine.Position.Y.Scale
@@ -2064,8 +2078,8 @@ local function FDECR_fake_script() -- discordcopier.Shine.LocalScript
 	end)
 	
 end
-coroutine.wrap(FDECR_fake_script)()
-local function YOPEL_fake_script() -- discordcopier.CloseButton.LocalScript 
+coroutine.wrap(OGWWDV_fake_script)()
+local function XIYT_fake_script() -- discordcopier.CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.CloseButton)
 
 	-- SERVICES
@@ -2147,4 +2161,4 @@ local function YOPEL_fake_script() -- discordcopier.CloseButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(YOPEL_fake_script)()
+coroutine.wrap(XIYT_fake_script)()
