@@ -1542,7 +1542,7 @@ discordcopier.UICorner_110.Parent = discordcopier.Frame_103
 
 -- Scripts:
 
-local function OVRWZW_fake_script() -- discordcopier.MainFrame.LocalScript 
+local function RKYC_fake_script() -- discordcopier.MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1639,8 +1639,8 @@ local function OVRWZW_fake_script() -- discordcopier.MainFrame.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(OVRWZW_fake_script)()
-local function KRQR_fake_script() -- discordcopier.PLB.LocalScript 
+coroutine.wrap(RKYC_fake_script)()
+local function QXHBSKG_fake_script() -- discordcopier.PLB.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.PLB)
 
 	-- SERVICES
@@ -1938,8 +1938,8 @@ local function KRQR_fake_script() -- discordcopier.PLB.LocalScript
 	end)
 	
 end
-coroutine.wrap(KRQR_fake_script)()
-local function RSDDA_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(QXHBSKG_fake_script)()
+local function TGARWMW_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -1979,8 +1979,8 @@ local function RSDDA_fake_script() -- discordcopier.GetScriptButton.Tween
 		end)
 	end)
 end
-coroutine.wrap(RSDDA_fake_script)()
-local function ZEYWOB_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(TGARWMW_fake_script)()
+local function KKACH_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a Shine Effect, a shiny line will appear randomly.
@@ -1997,15 +1997,15 @@ local function ZEYWOB_fake_script() -- discordcopier.GetScriptButton.Tween
 	shine.Position = UDim2.fromScale(-0.5, 0.5)
 	TS:Create(shine, info, {Position = UDim2.fromScale(1.5, 0.5)}):Play()
 end
-coroutine.wrap(ZEYWOB_fake_script)()
-local function XAZK_fake_script() -- discordcopier.GetScriptButton.CopyScript 
+coroutine.wrap(KKACH_fake_script)()
+local function NPEKLX_fake_script() -- discordcopier.GetScriptButton.CopyScript 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		-- Texte à copier
-		local textToCopy = "https://discord.gg/w4uqy22z"
+		local textToCopy = "https://discord.gg/K2QaN7Xf"
 	
 		-- Copie dans le presse-papiers
 		pcall(function()
@@ -2016,8 +2016,8 @@ local function XAZK_fake_script() -- discordcopier.GetScriptButton.CopyScript
 	end)
 	
 end
-coroutine.wrap(XAZK_fake_script)()
-local function OGWWDV_fake_script() -- discordcopier.Shine.LocalScript 
+coroutine.wrap(NPEKLX_fake_script)()
+local function RHDTRPJ_fake_script() -- discordcopier.Shine.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.Shine)
 
 	-- SERVICES
@@ -2078,8 +2078,8 @@ local function OGWWDV_fake_script() -- discordcopier.Shine.LocalScript
 	end)
 	
 end
-coroutine.wrap(OGWWDV_fake_script)()
-local function XIYT_fake_script() -- discordcopier.CloseButton.LocalScript 
+coroutine.wrap(RHDTRPJ_fake_script)()
+local function IPPYJ_fake_script() -- discordcopier.CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.CloseButton)
 
 	-- SERVICES
@@ -2161,4 +2161,4 @@ local function XIYT_fake_script() -- discordcopier.CloseButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(XIYT_fake_script)()
+coroutine.wrap(IPPYJ_fake_script)()
