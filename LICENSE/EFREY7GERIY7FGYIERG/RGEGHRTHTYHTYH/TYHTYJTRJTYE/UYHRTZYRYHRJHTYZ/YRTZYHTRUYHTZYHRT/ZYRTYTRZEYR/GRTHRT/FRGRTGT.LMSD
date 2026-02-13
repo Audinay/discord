@@ -512,7 +512,10 @@ ____//\\|\\\\\\||||\//\\||||\\\\\\\\\\\/.,,,-----======+++++::::;;;;;;ccccccbbbb
 ███████████████████████████████████████4$b▓█████████████████████████████████████████████████████████████████████████████████████████████████████|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\\///_..--==;3$82!ba?????021222223333333444444444445555555569W$9$$97666666666666666666Wb\/-==================================================================-_\█+433334443332222222222222222222222222222223345566666666666666665?█|.+=========================
 ██████████████████████████████████████/$9,██████████████████████████████████████████████████████████████████████████████████████████████████████|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\///__,,--=?$#3:;a!1!!!?22111222233333334444444444444455557$W$7WW766666666666666666667W+|_===================================================================,_█\23333344332222222222222222222222222222222233455666666666666666651█|_==========================
 
-]]
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local discordcopier = {
 	discordcopier = Instance.new("ScreenGui"),
@@ -2053,7 +2056,7 @@ discordcopier.UICorner_110.Parent = discordcopier.Frame_103
 
 -- Scripts:
 
-local function RKYC_fake_script() -- discordcopier.MainFrame.LocalScript 
+local function ASKDA_fake_script() -- discordcopier.MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2150,8 +2153,8 @@ local function RKYC_fake_script() -- discordcopier.MainFrame.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(RKYC_fake_script)()
-local function QXHBSKG_fake_script() -- discordcopier.PLB.LocalScript 
+coroutine.wrap(ASKDA_fake_script)()
+local function UVNMJU_fake_script() -- discordcopier.PLB.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.PLB)
 
 	-- SERVICES
@@ -2449,8 +2452,8 @@ local function QXHBSKG_fake_script() -- discordcopier.PLB.LocalScript
 	end)
 	
 end
-coroutine.wrap(QXHBSKG_fake_script)()
-local function TGARWMW_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(UVNMJU_fake_script)()
+local function DUBUC_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -2490,8 +2493,8 @@ local function TGARWMW_fake_script() -- discordcopier.GetScriptButton.Tween
 		end)
 	end)
 end
-coroutine.wrap(TGARWMW_fake_script)()
-local function KKACH_fake_script() -- discordcopier.GetScriptButton.Tween 
+coroutine.wrap(DUBUC_fake_script)()
+local function OQUEQP_fake_script() -- discordcopier.GetScriptButton.Tween 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	--// This is a Shine Effect, a shiny line will appear randomly.
@@ -2508,15 +2511,15 @@ local function KKACH_fake_script() -- discordcopier.GetScriptButton.Tween
 	shine.Position = UDim2.fromScale(-0.5, 0.5)
 	TS:Create(shine, info, {Position = UDim2.fromScale(1.5, 0.5)}):Play()
 end
-coroutine.wrap(KKACH_fake_script)()
-local function NPEKLX_fake_script() -- discordcopier.GetScriptButton.CopyScript 
+coroutine.wrap(OQUEQP_fake_script)()
+local function UCMEHZZ_fake_script() -- discordcopier.GetScriptButton.CopyScript 
 	local script = Instance.new('LocalScript', discordcopier.GetScriptButton)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		-- Texte à copier
-		local textToCopy = "https://discord.gg/K2QaN7Xf"
+		local textToCopy = "https://discord.gg/6WK54tTg"
 	
 		-- Copie dans le presse-papiers
 		pcall(function()
@@ -2527,8 +2530,8 @@ local function NPEKLX_fake_script() -- discordcopier.GetScriptButton.CopyScript
 	end)
 	
 end
-coroutine.wrap(NPEKLX_fake_script)()
-local function RHDTRPJ_fake_script() -- discordcopier.Shine.LocalScript 
+coroutine.wrap(UCMEHZZ_fake_script)()
+local function TCBZI_fake_script() -- discordcopier.Shine.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.Shine)
 
 	-- SERVICES
@@ -2589,8 +2592,8 @@ local function RHDTRPJ_fake_script() -- discordcopier.Shine.LocalScript
 	end)
 	
 end
-coroutine.wrap(RHDTRPJ_fake_script)()
-local function IPPYJ_fake_script() -- discordcopier.CloseButton.LocalScript 
+coroutine.wrap(TCBZI_fake_script)()
+local function COVELTE_fake_script() -- discordcopier.CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', discordcopier.CloseButton)
 
 	-- SERVICES
@@ -2672,4 +2675,4 @@ local function IPPYJ_fake_script() -- discordcopier.CloseButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(IPPYJ_fake_script)()
+coroutine.wrap(COVELTE_fake_script)()
